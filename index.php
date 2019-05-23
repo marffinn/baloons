@@ -38,46 +38,21 @@
 
     <div class="container">
 
-        <nav class="level">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Tweets</p>
-                    <p class="title">3,456</p>
-                </div>
+        <div class="columns is-multiline is-mobile is-centered" style="padding:20 0">
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"></img>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Following</p>
-                    <p class="title">123</p>
-                </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"></img>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Followers</p>
-                    <p class="title">456K</p>
-                </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"></img>
             </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Likes</p>
-                    <p class="title">789</p>
-                </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"></img>
             </div>
-        </nav>
 
-        <div class="columns">
-            <div class="column">
-                First column
-            </div>
-            <div class="column">
-                Second column
-            </div>
-            <div class="column">
-                Third column
-            </div>
-            <div class="column">
-                Fourth column
-            </div>
+
         </div>
 
     </div>
