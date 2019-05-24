@@ -17,7 +17,7 @@
         <div class="notification">
 
             <p class="level-item has-text-centered">
-                <img src="assets/logo.svg" alt="Logotype" style="height: 45px">
+                <img src="assets/img/logo.svg" alt="Logotype" class="logotype" style="height: 45px">
             </p>
             <p class="level-item has-text-centered">
                 Witaj w konfiguratorze balonów
@@ -37,48 +37,35 @@
     <div class="container">
 
         <div class="columns is-multiline is-mobile is-centered" style="padding:20 0">
+            
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
 
             <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
+                <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
             
-            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-
-            <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
-            </div>
-            <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
-            </div>
-            <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
-            </div>
-            <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"/>
-            </div>
         </div>
 
     </div>
