@@ -13,12 +13,11 @@
 <body>
 
 
-
     <div class="container">
         <div class="notification">
 
             <p class="level-item has-text-centered">
-                <img src="assets/logo.svg" alt="Logotype" style="height: 45px; margin:10px">
+                <img src="assets/logo.svg" alt="Logotype" style="height: 45px">
             </p>
             <p class="level-item has-text-centered">
                 Witaj w konfiguratorze balonów
@@ -26,40 +25,69 @@
 
         </div>
 
-        <div class="notification">
+        <div class="notification"  style="margin-bottom:10px">
 
             <p class="level-item has-text-centered">
-                Wybierz produkt do konfiguracji
+                Wybierz produkt do konfiguracji:
             </p>
 
         </div>
-
     </div>
 
     <div class="container">
 
         <div class="columns is-multiline is-mobile is-centered" style="padding:20 0">
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"></img>
+                <img src="https://via.placeholder.com/320"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"></img>
+                <img src="https://via.placeholder.com/320"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"></img>
+                <img src="https://via.placeholder.com/320"/>
             </div>
             <div class="column is-one-quarter">
-                <img src="https://via.placeholder.com/320"></img>
+                <img src="https://via.placeholder.com/320"/>
             </div>
 
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
+            <div class="column is-one-quarter">
+                <img src="https://via.placeholder.com/320"/>
+            </div>
         </div>
 
     </div>
 
 
-
     <script src="lib/three.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/anim.js" type="text/javascript"></script>
 </body>
 
 </html>
