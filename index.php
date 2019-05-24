@@ -35,9 +35,8 @@
     </div>
 
     <div class="container">
-
         <div class="columns is-multiline is-mobile is-centered" style="padding:20 0">
-            
+
             <div class="column is-one-quarter">
                 <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
@@ -65,13 +64,10 @@
             <div class="column is-one-quarter">
                 <img src="assets/BALONY/Kula/Kula_4m_.jpg"/>
             </div>
-            
-        </div>
 
+        </div>
     </div>
 
-
-    <script src="lib/three.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="lib/anim.js" type="text/javascript"></script>
