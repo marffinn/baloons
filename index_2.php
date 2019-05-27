@@ -26,17 +26,17 @@
 <body>
 
     <div id="container"></div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 
     <script src="lib/three.js" type="text/javascript"></script>
     <script src="lib/WebGL.js" type="text/javascript"></script>
-    
+
     <script src="lib/DDSLoader.js" type="text/javascript"></script>
     <script src="lib/OBJLoader.js" type="text/javascript"></script>
     <script src="lib/MTLLoader.js" type="text/javascript"></script>
-    
+
 
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>

@@ -1,28 +1,29 @@
 .btn {
-  border: none;
-  text-align:center;
-  cursor: pointer;
-  padding: 25px 80px;
-  margin: 25px 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  background-color:rgb(38, 38, 38);
-  border: solid 1px transparent;
-  border-radius:10px;
-  -webkit-font-smoothing: antialiased;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 80px;
+    margin: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px transparent;
+    border-radius: 10px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .nav {
-  position:relative;
-  width:350px;
-  margin:auto;
-  overflow:hidden;
-  background-color:#1d1d1d;
-  height:90%;
+    position: relative;
+    width: 350px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    height: 90%;
 }
+
 #container {
     z-index: 100;
     position: absolute;
@@ -30,10 +31,10 @@
     float: left;
     overflow: hidden;
     background: #696969;
-    background: rgb(206,220,231);
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
-    background: radial-gradient(ellipse at center,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 );
+    background: rgb(206, 220, 231);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cedce7', endColorstr='#596a72', GradientType=1);
 
 }
