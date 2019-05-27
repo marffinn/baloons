@@ -23,3 +23,17 @@
   background-color:#1d1d1d;
   height:90%;
 }
+#container {
+    z-index: 100;
+    position: absolute;
+    display: block;
+    float: left;
+    overflow: hidden;
+    background: #696969;
+    background: rgb(206,220,231);
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+    background: radial-gradient(ellipse at center,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 );
+
+}
