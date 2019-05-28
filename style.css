@@ -1,25 +1,201 @@
 body {
-    font-weight: 400;
+    padding: 0;
+    margin: 0px;
     overflow: hidden;
-    font-family: 'OpenSansRegular', Arial, sans-serif;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    float: left;
+    font-family:sans-serif
 }
 
 #container {
-    z-index: 100;
+    display: block;
+    padding: 0;
+    margin: :0;
+    background: rgb(96, 108, 136);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=1);
+}
+
+.button_container {
     position: absolute;
     display: block;
-    float: left;
-    overflow: hidden;
-    background: #696969;
-    background: rgb(206, 220, 231);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
-    background: radial-gradient(ellipse at center, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cedce7', endColorstr='#596a72', GradientType=1);
+    margin: 20px;
+    margin: 0 auto;
+    top: 20px;
+    left: 50%;
+    margin-left: -80px;
+}
 
+.volume_container {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fullscreen_container {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fullscreen_container img {
+    width: 40px;
+    float: left;
+}
+
+.volume_container img {
+    width: 20px;
+    float: left;
+}
+
+.switch_model {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.next {
+    width: 28px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    background: white;
+    top: 29px;
+    left: 50%;
+    transform: rotateY(20);
+    margin-left: -14px;
+    transform: rotate(45deg);
+}
+
+.prev {
+    width: 28px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    background: white;
+    bottom: 29px;
+    margin-left: -14px;
+    transform: rotateY(20);
+    transform: rotate(-45deg);
+    left: 50%;
+}
+
+.next_model {
+    right: 0;
+}
+
+.prev_model {
+    transform: rotate(180deg);
+}
+
+section {
+    width: 160px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+input {
+    display: none;
+    opacity: 0;
+}
+
+label {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    background: rgb(189, 189, 189);
+    border-radius: 30px;
+    transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    left: 50%;
+    margin-left: -30px;
+    -webkit-transition: background-color 0.4s;
+}
+
+label:after {
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    content: '';
+    position: absolute;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+input:checked+label {
+    background: rgb(39, 173, 95);
+}
+
+input:checked+label:after {
+    left: auto;
+    right: 0;
+}
+
+p {
+    position: absolute;
+    font-size: 11px;
+    color: rgb(189, 189, 189);
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+input:checked~p:nth-of-type(1) {
+    color: rgb(39, 173, 95);
+    display: block;
+}
+
+input:not(:checked)~p:nth-of-type(2) {
+    display: block;
+}
+
+.model_name {
+    width: auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    background: crimson;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 14px;
+    left: 50%;
+    bottom: 20px;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.model_name a {
+    color: white;
+    text-decoration: none;
+}
+
+.loadBar {
+    display: block;
+    float: left;
+    position: absolute;
+    z-index: 999;
+    background: yellow;
+    height: 5px;
+    width: 10px;
 }
