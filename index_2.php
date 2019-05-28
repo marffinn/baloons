@@ -10,17 +10,6 @@
     <link href="css/bulma.min.css" rel="stylesheet">
     <title> Konfigurator </title>
 
-    <style>
-        body {
-            margin: 0;
-        }
-
-        canvas {
-            width: 100%;
-            height: 100%
-        }
-
-    </style>
 </head>
 
 <body>
