@@ -48,9 +48,9 @@
     <script src="lib/scene.js" type="text/javascript"></script>
 
     <!-- initial model load and entry animation -->
-    <script type="text/javascript">
-        animIn( <?php echo $numer ?> );
-    </script>
+    <!-- <script type="text/javascript">
+        animIn( <?php // echo $numer ?> );
+    </script> -->
 
 </body>
 
