@@ -33,7 +33,7 @@
     </div>
 
     <div class="fullscreen_container" state="off">
-        <img src="lib/fullscreen.svg">
+        <img src="assets/img/fullscreen.svg">
     </div>
 
     <!-- scripts & libraries -->
