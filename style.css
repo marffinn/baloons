@@ -1,60 +1,159 @@
 body {
-    padding: 0;
-    margin: 0px;
-    overflow: hidden;
-    font-family:sans-serif
+  padding: 0;
+  margin: 0px;
+  overflow: hidden;
+  font-family: sans-serif
 }
 
 #container {
-    display: block;
-    z-index: 888;
-    padding: 0;
-    margin: :0;
-    background: rgb(96, 108, 136);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-    background: radial-gradient(ellipse at center, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=1);
+  display: block;
+  z-index: 888;
+  padding: 0;
+  margin: :0;
+  background: rgb(96, 108, 136);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=1);
 }
+
 #picklist {
   width: 336px;
   height: auto;
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 999;
   border: 1px solid #86868696;
 }
+
 #picklist .select {
-    width: 100%;
-    display: block;
-    height: auto;
-    margin-bottom: 0.5em;
-    clear: both;
-    float: left;
+  width: 88%;
+  display: block;
+  height: auto;
+  margin-bottom: 0.5em;
+  clear: both;
+  float: left;
+  margin-left: 6%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
 }
+
 #picklist .select a {
-    width: 2.5em;
-    height: 2.5em;
-    display: block;
-    background-color: #999;
-    float: left;
-    margin: 1px;
+  width: 2.5em;
+  height: 2.5em;
+  display: block;
+  background-color: #999;
+  float: left;
+  margin: 1px;
+}
+.select h4 {
+  font-weight: normal;
+}
+.skolory .clr {
+  clear: both;
+  width: auto !important;
+  background-color: rgba(255,255,255,0) !important;
+  line-height: 2.5em;
+  text-decoration: none;
+  color: #333;
+  text-indent: 1em;
+}
+
+a.clr {}
+.sdodatki a {
+  clear: both;
 }
 
 .placeOrder {
-width: 100%;
-height: 3em;
-display: block;
-float: left;
-background: #f1f1f1;
-text-align: center;
-vertical-align: middle;
-line-height: 3em;
-text-decoration: none;
-color: #444;
-margin-top: 1em;
+  width: 100%;
+  height: 3em;
+  display: block;
+  float: left;
+  background: #f1f1f1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3em;
+  text-decoration: none;
+  color: #444;
+  margin-top: 1em;
+}
+
+.fullscreen_container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.fullscreen_container img {
+  width: 40px;
+  float: left;
+}
+
+.switch_model {
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.next {
+  width: 28px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  background: white;
+  top: 29px;
+  left: 50%;
+  transform: rotateY(20);
+  margin-left: -14px;
+  transform: rotate(45deg);
+}
+
+.prev {
+  width: 28px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  background: white;
+  bottom: 29px;
+  margin-left: -14px;
+  transform: rotateY(20);
+  transform: rotate(-45deg);
+  left: 50%;
+}
+
+.next_model {
+  right: 0;
+}
+
+.prev_model {
+  transform: rotate(180deg);
+}
+
+.loadBar {
+  display: block;
+  float: left;
+  position: absolute;
+  z-index: 9999;
+  background: yellow;
+  height: 5px;
+  width: 10px;
+}
+
+.product-name {
+  text-align: center;
+  color: #333;
+  font-weight: normal;
 }
 .button_container {
     position: absolute;
@@ -65,82 +164,6 @@ body {
     left: 50%;
     margin-left: -80px;
 }
-
-.volume_container {
-    width: auto;
-    height: auto;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    padding: 0;
-}
-
-.fullscreen_container {
-    width: auto;
-    height: auto;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    padding: 0;
-}
-
-.fullscreen_container img {
-    width: 40px;
-    float: left;
-}
-
-.volume_container img {
-    width: 20px;
-    float: left;
-}
-
-.switch_model {
-    width: 80px;
-    height: 80px;
-    display: block;
-    position: absolute;
-    top: 50%;
-    margin-top: -40px;
-    background: rgba(0, 0, 0, .1);
-    cursor: pointer;
-}
-
-.next {
-    width: 28px;
-    height: 5px;
-    display: block;
-    position: absolute;
-    background: white;
-    top: 29px;
-    left: 50%;
-    transform: rotateY(20);
-    margin-left: -14px;
-    transform: rotate(45deg);
-}
-
-.prev {
-    width: 28px;
-    height: 5px;
-    display: block;
-    position: absolute;
-    background: white;
-    bottom: 29px;
-    margin-left: -14px;
-    transform: rotateY(20);
-    transform: rotate(-45deg);
-    left: 50%;
-}
-
-.next_model {
-    right: 0;
-}
-
-.prev_model {
-    transform: rotate(180deg);
-}
-
 section {
     width: 160px;
     display: inline-block;
@@ -206,36 +229,4 @@ input:checked~p:nth-of-type(1) {
 
 input:not(:checked)~p:nth-of-type(2) {
     display: block;
-}
-
-.model_name {
-    width: auto;
-    height: auto;
-    display: block;
-    position: absolute;
-    z-index: 100;
-    background: crimson;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 6px;
-    text-transform: uppercase;
-    font-size: 14px;
-    left: 50%;
-    bottom: 20px;
-    letter-spacing: normal;
-    -webkit-font-smoothing: antialiased;
-}
-.model_name a {
-    color: white;
-    text-decoration: none;
-}
-
-.loadBar {
-    display: block;
-    float: left;
-    position: absolute;
-    z-index: 9999;
-    background: yellow;
-    height: 5px;
-    width: 10px;
 }

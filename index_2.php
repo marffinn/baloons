@@ -16,9 +16,9 @@
 
     <div id="container"></div>
     <div id="picklist">
-
+        <h2 class="product-name"> Kula B-16 </h2>
         <div class="select skolory">
-          <h2> Kolory </h2>
+          <h4> Kolory: </h4>
           <a href="#" target="_self" rel="white"        hex="#ffffff"></a>
           <a href="#" target="_self" rel="black"        hex="#000000"></a>
           <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"></a>
@@ -31,18 +31,22 @@
           <a href="#" target="_self" rel="pantone286c"  hex="#0033A0"></a>
           <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"></a>
           <a href="#" target="_self" rel="pantone425c"  hex="#54585A"></a>
+
+          <a class="clr" style="margin-top:2em" href="#" target="_self"> Brak nadruku</a>
+          <a class="clr" href="#" target="_self"> Cały w nadruku</a>
+          <a class="clr" href="#" target="_self"> Druk na pasie</a>
         </div>
         <div class="select srozmiar">
-          <h2> Rozmiar </h2>
+          <h4> Rozmiar: </h4>
           <a href="#" target="_self" rel="red" hex="#fff000">B-16</a>
           <a href="#" target="_self" rel="red" hex="#fff000">B-12</a>
           <a href="#" target="_self" rel="red" hex="#fff000">Kula</a>
         </div>
         <div class="select sdodatki">
-          <h2> Dodatki </h2>
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <h4> Dodatki: </h4>
+          <a class="clr" href="#" target="_self"> Oświetlenie wewnątrz balonu</a>
+          <a class="clr" href="#" target="_self"> Materiał trudnopalny z cert. B1</a>
+          <a class="clr" href="#" target="_self"> Obciążniki piaskowe</a>
         </div>
 
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
