@@ -17,10 +17,32 @@
     <div id="container"></div>
     <div id="picklist">
 
-        <div class="select skolory"></div>
-        <div class="select srozmiar"></div>
-        <div class="select sdodatki"></div>
+        <div class="select skolory">
+          <a href="#" target="_self" rel="white"        hex="#ffffff"></a>
+          <a href="#" target="_self" rel="black"        hex="#000000"></a>
+          <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"></a>
+          <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B"></a>
+          <a href="#" target="_self" rel="pantone158c"  hex="#E87722"></a>
+          <a href="#" target="_self" rel="pantone186c"  hex="#C8102E"></a>
+          <a href="#" target="_self" rel="pantone368c"  hex="#78BE20"></a>
+          <a href="#" target="_self" rel="pantone347c"  hex="#009A44"></a>
+          <a href="#" target="_self" rel="pantone2925c" hex="#009CDE"></a>
+          <a href="#" target="_self" rel="pantone286c"  hex="#0033A0"></a>
+          <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"></a>
+          <a href="#" target="_self" rel="pantone425c"  hex="#54585A"></a>
+        </div>
+        <div class="select srozmiar">
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+        </div>
+        <div class="select sdodatki">
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+        </div>
 
+        <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
 
     <div class="button_container">
@@ -49,10 +71,6 @@
     <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
 
-    <!-- initial model load and entry animation -->
-    <script type="text/javascript">
-        animIn( <?php  echo $numer ?> );
-    </script>
 
 </body>
 
