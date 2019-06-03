@@ -18,6 +18,7 @@
     <div id="picklist">
 
         <div class="select skolory">
+          <h2> Kolory </h2>
           <a href="#" target="_self" rel="white"        hex="#ffffff"></a>
           <a href="#" target="_self" rel="black"        hex="#000000"></a>
           <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"></a>
@@ -32,11 +33,13 @@
           <a href="#" target="_self" rel="pantone425c"  hex="#54585A"></a>
         </div>
         <div class="select srozmiar">
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
-          <a href="#" target="_self" rel="red" hex="#fff000"></a>
+          <h2> Rozmiar </h2>
+          <a href="#" target="_self" rel="red" hex="#fff000">B-16</a>
+          <a href="#" target="_self" rel="red" hex="#fff000">B-12</a>
+          <a href="#" target="_self" rel="red" hex="#fff000">Kula</a>
         </div>
         <div class="select sdodatki">
+          <h2> Dodatki </h2>
           <a href="#" target="_self" rel="red" hex="#fff000"></a>
           <a href="#" target="_self" rel="red" hex="#fff000"></a>
           <a href="#" target="_self" rel="red" hex="#fff000"></a>
