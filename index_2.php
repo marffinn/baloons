@@ -20,7 +20,7 @@
         <div class="select skolory">
           <h4> Kolory: </h4>
           <a href="#" target="_self" rel="white"        hex="#ffffff"></a>
-          <a href="#" target="_self" rel="black"        hex="#000000"></a>
+          <a href="#" target="_self" rel="black"        hex="#000000" ></a>
           <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"></a>
           <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B"></a>
           <a href="#" target="_self" rel="pantone158c"  hex="#E87722"></a>
