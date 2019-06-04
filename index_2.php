@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+    <canvas id="number" width="64" height="64" style="display:none"></canvas>
     <div id="container"></div>
     <div id="picklist">
         <h2 class="product-name"> Kula B-16 </h2>
