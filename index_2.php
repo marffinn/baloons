@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="style.css" rel="stylesheet">
     <title> Konfigurator </title>
-
 </head>
 
 <body>
@@ -32,15 +31,15 @@
           <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"></a>
           <a href="#" target="_self" rel="pantone425c"  hex="#54585A"></a>
 
-          <a class="clr" style="margin-top:2em" href="#" target="_self"> Brak nadruku</a>
+          <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
           <a class="clr" href="#" target="_self"> Cały w nadruku</a>
           <a class="clr" href="#" target="_self"> Druk na pasie</a>
         </div>
         <div class="select srozmiar">
           <h4> Rozmiar: </h4>
-          <a href="#" target="_self" rel="red" hex="#fff000">B-16</a>
-          <a href="#" target="_self" rel="red" hex="#fff000">B-12</a>
-          <a href="#" target="_self" rel="red" hex="#fff000">Kula</a>
+          <a class="clr" href="#" target="_self" >B-16</a>
+          <a class="clr" href="#" target="_self" >B-12</a>
+          <a class="clr" href="#" target="_self" >Kula</a>
         </div>
         <div class="select sdodatki">
           <h4> Dodatki: </h4>

@@ -32,7 +32,6 @@ body {
   width: 88%;
   display: block;
   height: auto;
-  margin-bottom: 0.5em;
   clear: both;
   float: left;
   margin-left: 6%;
@@ -55,10 +54,64 @@ body {
   clear: both;
   width: auto !important;
   background-color: rgba(255,255,255,0) !important;
-  line-height: 2.5em;
+  line-height: 1.5em;
   text-decoration: none;
   color: #333;
-  text-indent: 1em;
+  text-indent: 2em;
+  height: 1.5em !important;
+  position: relative;
+}
+.skolory .clr::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px inset #333;
+  top: 0.25em;
+}
+.srozmiar .clr {
+  clear: both;
+  width: auto !important;
+  background-color: rgba(255,255,255,0) !important;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #333;
+  text-indent: 2em;
+  height: 1.5em !important;
+  position: relative;
+}
+.srozmiar .clr::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px inset #333;
+  top: 0.25em;
+}
+.sdodatki .clr {
+  clear: both;
+  width: auto !important;
+  background-color: rgba(255,255,255,0) !important;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #333;
+  text-indent: 2em;
+  height: 1.5em !important;
+  position: relative;
+}
+.sdodatki .clr::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px inset #333;
+  top: 0.25em;
 }
 
 a.clr {}
@@ -85,13 +138,13 @@ a.clr {}
   height: auto;
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   cursor: pointer;
   padding: 0;
 }
 
 .fullscreen_container img {
-  width: 40px;
+  width: 25px;
   float: left;
 }
 
