@@ -12,8 +12,11 @@
 </head>
 
 <body>
-    <canvas id="number" width="64" height="64" style="display:none"></canvas>
     <div id="container"></div>
+    <canvas id="number" width="64" height="64" style="display:none"></canvas>
+    <div class="prev"></div>
+    <div class="next"></div>
+
     <div id="picklist">
         <h2 class="product-name"> Kula B-16 </h2>
         <div class="select skolory">
@@ -50,7 +53,6 @@
 
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
-
     <div class="button_container">
         <section>
             <input type="checkbox" id="light-switch" state="off" />
@@ -59,7 +61,6 @@
             <p>rozpocznij animację</p>
         </section>
     </div>
-
     <div class="fullscreen_container" state="off">
         <img src="assets/img/fullscreen.svg">
     </div>
