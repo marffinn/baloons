@@ -21,6 +21,7 @@
     </div>
 
     <div id="picklist">
+        <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor poniżej.<p></p></div>
         <h2 class="product-name"> . </h2>
         <div class="select skolory">
           <h4> Kolory: </h4>

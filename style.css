@@ -28,6 +28,32 @@ body {
   z-index: 999;
   overflow: hidden;
 }
+.pickInfo {
+padding: 1em;
+background-color: gold;
+border-bottom: 1px solid #fff;
+position: relative;
+}
+.pickInfo p {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  padding: 0;
+  border-radius: 20px;
+  margin: 0;
+  right: 1em;
+  bottom: 50%;
+  margin-bottom: -10px;
+}
+.pickInfo p::before{
+  content: 'X';
+  top: 4px;
+  position: absolute;
+  margin: 0 auto;
+  left: 6px;
+}
 
 #picklist .select {
   width: 88%;
