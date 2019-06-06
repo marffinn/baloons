@@ -71,13 +71,14 @@ body {
 }
 
 #picklist .select a {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   display: block;
   background-color: #999;
   float: left;
-  margin: 1px;
+  margin: 2px;
   position: relative;
+  overflow: hidden;
   border-radius: 2em;
 }
 
@@ -111,6 +112,25 @@ body {
 .select h4 {
   font-weight: normal;
   margin: 5px 0;
+}
+.select a {
+  position: relative;
+}
+.select a p {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  top: 50%;
+  margin-top: -6px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.mark {
+  display: block !important;
 }
 
 .skolory .clr {
@@ -196,12 +216,12 @@ body {
   vertical-align: middle;
   line-height: 3em;
   text-decoration: none;
-  color: #444;
+  color: #000;
   margin-top: 1em;
 }
 .placeOrder:hover {
-  background-color: green;
-  color: white;
+  background-color: gold;
+  /* color: white; */
 }
 
 .fullscreen_container {
