@@ -62,6 +62,7 @@ body {
   height: 1em;
   display: block;
   position: relative;
+
 }
 
 .clr.check::after {
