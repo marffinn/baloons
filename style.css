@@ -52,6 +52,7 @@ body {
   float: left;
   margin: 1px;
   position: relative;
+  border-radius: 2em;
 }
 
 .select {
@@ -74,6 +75,7 @@ body {
   background-color: #009a44;
   top: 0.25em;
   margin: 4px;
+  border-radius: .5em;
 }
 
 .clr {
@@ -105,6 +107,7 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
+  border-radius: 1em;
 }
 
 .srozmiar .clr {
@@ -127,6 +130,7 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
+  border-radius: 1em;
 }
 
 .sdodatki .clr {
@@ -149,6 +153,7 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
+  border-radius: 1em;
 }
 
 .sdodatki a {
@@ -167,6 +172,10 @@ body {
   text-decoration: none;
   color: #444;
   margin-top: 1em;
+}
+.placeOrder:hover {
+  background-color: green;
+  color: white;
 }
 
 .fullscreen_container {
