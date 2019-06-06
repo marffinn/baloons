@@ -39,6 +39,7 @@ body {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.5em;
 }
+
 #picklist .sdodatki {
   border-bottom: none;
 }
@@ -62,7 +63,6 @@ body {
   height: 1em;
   display: block;
   position: relative;
-
 }
 
 .clr.check::after {
@@ -104,7 +104,6 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  /* border: 1px inset #333; */
   top: 0.25em;
 }
 
@@ -127,7 +126,6 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  /* border: 1px inset #333; */
   top: 0.25em;
 }
 
@@ -150,7 +148,6 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  /* border: 1px inset #333; */
   top: 0.25em;
 }
 
@@ -198,38 +195,83 @@ body {
   cursor: pointer;
 }
 
+.nextprevHolder {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 50%;
+  margin-left: -45px;
+  bottom: 35px;
+}
+
 .next {
-  width: 28px;
-  height: 5px;
+  width: 30px;
+  height: 30px;
   display: block;
   position: absolute;
-  background: white;
-  top: 29px;
-  left: 50%;
-  transform: rotateY(20);
-  margin-left: -14px;
-  transform: rotate(45deg);
-}
-
-.prev {
-  width: 28px;
-  height: 5px;
-  display: block;
-  position: absolute;
-  background: white;
-  bottom: 29px;
-  margin-left: -14px;
-  transform: rotateY(20);
-  transform: rotate(-45deg);
-  left: 50%;
-}
-
-.next_model {
   right: 0;
 }
 
-.prev_model {
+.next::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  transform: rotate(-45deg);
+  top: 50%;
+  margin-top: 6px;
+  border-radius: 2px;
+  left: 5px;
+}
+
+.next::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  transform: rotate(45deg);
+  top: 7px;
+  left: 5px;
+  border-radius: 2px;
+}
+
+.prev {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
   transform: rotate(180deg);
+}
+
+.prev::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  transform: rotate(-45deg);
+  top: 50%;
+  margin-top: 6px;
+  border-radius: 2px;
+  left: 5px;
+}
+
+.prev::after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: white;
+  transform: rotate(45deg);
+  top: 7px;
+  left: 5px;
+  border-radius: 2px;
 }
 
 .loadBar {

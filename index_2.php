@@ -14,8 +14,11 @@
 <body>
     <div id="container"></div>
     <canvas id="number" width="64" height="64" style="display:none"></canvas>
-    <div class="prev"></div>
-    <div class="next"></div>
+
+    <div class="nextprevHolder">
+      <div class="prev"></div>
+      <div class="next"></div>
+    </div>
 
     <div id="picklist">
         <h2 class="product-name"> . </h2>
