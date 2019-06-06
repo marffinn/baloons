@@ -29,7 +29,7 @@
                 <img src="assets/BALONY/Kula/Kula_4m_.jpg" />
             </div>
             <div class="column is-one-quarter">
-                <img src="assets/BALONY/Kula/Kula_4m_.jpg" />
+                <img src="assets/BALONY\B16\kartka_B16_4m_.jpg" />
             </div>
             <div class="column is-one-quarter">
                 <img src="assets/BALONY/Kula/Kula_4m_.jpg" />
