@@ -23,9 +23,10 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
+  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.8);
   z-index: 999;
-  /* border: 1px solid #86868696; */
+  overflow: hidden;
 }
 
 #picklist .select {
@@ -38,18 +39,49 @@ body {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.5em;
 }
+#picklist .sdodatki {
+  border-bottom: none;
+}
 
 #picklist .select a {
-  width: 2.5em;
-  height: 2.5em;
+  width: 2em;
+  height: 2em;
   display: block;
   background-color: #999;
   float: left;
   margin: 1px;
+  position: relative;
+}
+
+.select {
+  position: relative;
+}
+
+.check {
+  width: 1em;
+  height: 1em;
+  display: block;
+  position: relative;
+}
+
+.clr.check::after {
+  content: '';
+  width: .5em;
+  height: .5em;
+  display: block;
+  position: absolute;
+  background-color: #009a44;
+  top: 0.25em;
+  margin: 4px;
+}
+
+.clr {
+  position: relative;
 }
 
 .select h4 {
   font-weight: normal;
+  margin: 5px 0;
 }
 
 .skolory .clr {
@@ -71,7 +103,7 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  border: 1px inset #333;
+  /* border: 1px inset #333; */
   top: 0.25em;
 }
 
@@ -94,7 +126,7 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  border: 1px inset #333;
+  /* border: 1px inset #333; */
   top: 0.25em;
 }
 
@@ -117,11 +149,9 @@ body {
   display: block;
   position: absolute;
   background-color: white;
-  border: 1px inset #333;
+  /* border: 1px inset #333; */
   top: 0.25em;
 }
-
-a.clr {}
 
 .sdodatki a {
   clear: both;
@@ -215,6 +245,8 @@ a.clr {}
   text-align: center;
   color: #333;
   font-weight: normal;
+  margin: 10px 0;
+  padding: 0;
 }
 
 .button_container {
