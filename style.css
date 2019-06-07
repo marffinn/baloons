@@ -99,10 +99,11 @@ body {
   height: .5em;
   display: block;
   position: absolute;
-  background-color: #009a44;
+  background-color: gold;
   top: 0.25em;
-  margin: 4px;
+  margin: 3px;
   border-radius: .5em;
+  border: 1px solid #333;
 }
 
 .clr {
