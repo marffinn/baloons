@@ -1,4 +1,6 @@
-<?php $numer = 0; ?>
+<?php
+  $numer = $_GET['numer'];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +13,7 @@
     <title> Konfigurator </title>
 </head>
 
-<body>
+<body class="noflow">
     <div id="container"></div>
     <canvas id="number" width="64" height="64" style="display:none"></canvas>
 
@@ -81,6 +83,10 @@
     <script src="lib/index.js" type="text/javascript"></script>
     <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      animIn(<?php echo $numer; ?>);
+    </script>
+
 
 
 </body>
