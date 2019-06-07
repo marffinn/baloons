@@ -11,9 +11,9 @@
 <body>
 
     <div class="container head-stuff">
-      <p> Witaj w konfiguratorze balonów </p>
-      <img src="assets/img/logo.svg" alt="Logotype" class="logotype">
-      <p> Wybierz produkt do konfiguracji: </p>
+      <img src="assets/img/logo-tent.png" alt="Logotype" class="logotype">
+      <h3>Witaj w konfiguratorze balonów</h3>
+      <p>Wybierz produkt do konfiguracji:</p>
     </div>
 
     <div class="container">

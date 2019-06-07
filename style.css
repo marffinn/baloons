@@ -459,9 +459,8 @@ input:not(:checked)~p:nth-of-type(2) {
 }
 
 .head-stuff {
-  /* width: 100%; */
-  height: auto;
-  display: block;
+  margin: 40px auto;
+  text-align: center;
 }
 .head-stuff img {
   width: 200px;
@@ -486,6 +485,7 @@ input:not(:checked)~p:nth-of-type(2) {
   position: relative;
   margin: 0 auto;
   box-shadow: 0 0 0 1px #ccc;
+  margin-bottom: 40px;
 }
 
 .img-holder {
