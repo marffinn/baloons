@@ -15,7 +15,7 @@
 
 <body class="noflow">
     <div id="container"></div>
-    <canvas id="number" width="64" height="64" style="display:none"></canvas>
+    <div id="modal"></div>
 
     <div class="nextprevHolder">
       <div class="prev"></div>

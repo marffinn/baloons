@@ -18,6 +18,20 @@ body {
       hsl(180, 35%, 40%) 100%);
 }
 
+#modal {
+  position: absolute;
+  display: none;
+  width: 40%;
+  height: auto;
+  min-height: 20px;
+  background-color: #ffd700;
+  z-index: 999;
+  top: 2em;
+  border-radius: .3em;
+  left: 50%;
+  margin-left: -20%;
+}
+
 #picklist {
   width: 336px;
   height: auto;
