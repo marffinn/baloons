@@ -13,11 +13,10 @@ body {
   z-index: 888;
   padding: 0;
   margin: :0;
-  background: rgb(96, 108, 136);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-  background: radial-gradient(ellipse at center, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#606c88', endColorstr='#3f4c6b', GradientType=1);
+  background: radial-gradient(circle,
+      /* hsl(180, 15%, 90%) 10%, */
+      hsl(180, 25%, 70%) 30%,
+      hsl(180, 35%, 40%) 100%);
 }
 
 #picklist {
@@ -424,7 +423,7 @@ input:checked+label:after {
 p {
   position: absolute;
   font-size: 11px;
-  color: rgb(189, 189, 189);
+  color: #333;
   display: none;
   text-transform: uppercase;
   letter-spacing: 1px;
