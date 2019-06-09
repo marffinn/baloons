@@ -81,6 +81,7 @@
     <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
     <script src="lib/index.js" type="text/javascript"></script>
+    <!-- <script src="lib\threex.domevents.js" type="text/javascript"></script> -->
     <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script type="text/javascript">
