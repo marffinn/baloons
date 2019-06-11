@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0px;
-  /* overflow: hidden; */
   font-family: sans-serif;
 }
 .noflow {
@@ -255,13 +254,11 @@ body {
   line-height: 3em;
   text-decoration: none;
   color: #000;
-  /* margin-top: 1em; */
   border-top: 1px solid #ccc;
 }
 
 .placeOrder:hover {
   background-color: gold;
-  /* color: white; */
 }
 
 .fullscreen_container {
@@ -474,14 +471,12 @@ input:not(:checked)~p:nth-of-type(2) {
 }
 
 .head-stuff {
-  /* width: 100%; */
   height: auto;
   display: block;
 }
 .head-stuff img {
   width: 200px;
   display: block;
-  /* float: left; */
   margin: 0 auto;
 }
 
