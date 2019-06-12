@@ -304,6 +304,9 @@ body {
   display: block;
   float: left;
   line-height: 30px;
+  font-weight: 600;
+  font-size: .8em;
+  color: #333;
 }
 .next {
   width: 30px;

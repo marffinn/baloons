@@ -74,8 +74,6 @@
 
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.3.5/Tween.min.js" type="text/javascript"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
