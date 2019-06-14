@@ -1,0 +1,37 @@
+{
+    "uvs":[[0.359068,0.799067,0.634715,0.799478,0.755583,0.626497,0.238898,0.62615,0.496367,0.958885,0.8407,0.444766,0.154797,0.447884]],
+    "colors":[],
+    "metadata":{
+        "uvs":1,
+        "normals":5,
+        "faces":3,
+        "colors":0,
+        "version":3,
+        "generator":"io_three",
+        "type":"Geometry",
+        "vertices":7,
+        "materials":1
+    },
+    "normals":[-0.559587,-0.828761,0,-0.559435,-0.828852,0,-0.806085,-0.591754,0,-0.372875,-0.927854,0,-0.878597,-0.477554,0],
+    "vertices":[31.3271,67.407,11.1141,31.3271,67.407,-11.114,44.8098,56.2151,-20.9098,44.8098,56.2151,20.9098,15.9882,73.5711,-0.030268,53.7267,39.81,-27.3883,53.7267,39.8099,27.3883],
+    "faces":[43,0,1,2,3,0,0,1,2,3,0,1,2,2,42,0,4,1,0,0,4,1,0,3,1,43,2,5,6,3,0,2,5,6,3,2,4,4,2],
+    "materials":[{
+        "DbgColor":15658734,
+        "colorSpecular":[0.5,0.5,0.5],
+        "colorEmissive":[0,0,0],
+        "opacity":1,
+        "depthTest":true,
+        "wireframe":false,
+        "shading":"phong",
+        "transparent":false,
+        "doubleSided":false,
+        "visible":true,
+        "colorDiffuse":[0.64,0.64,0.64],
+        "DbgIndex":0,
+        "vertexColors":false,
+        "specularCoef":50,
+        "blending":"NormalBlending",
+        "depthWrite":true,
+        "DbgName":"_.002"
+    }]
+}

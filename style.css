@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0px;
-  /* overflow: hidden; */
   font-family: sans-serif;
 }
 .noflow {
@@ -18,8 +17,22 @@ body {
       hsl(180, 35%, 40%) 100%);
 }
 
+#modal {
+  position: absolute;
+  display: none;
+  width: 40%;
+  height: auto;
+  min-height: 20px;
+  background-color: #ffd700;
+  z-index: 999;
+  top: 2em;
+  border-radius: .3em;
+  left: 50%;
+  margin-left: -20%;
+}
+
 #picklist {
-  width: 336px;
+  width: 290px;
   height: auto;
   position: absolute;
   top: 20px;
@@ -31,10 +44,18 @@ body {
 }
 
 .pickInfo {
-  padding: .6em 1em;
+  z-index: 99999;
+  padding: 1em 1em;
   background-color: gold;
-  border-bottom: 1px solid #fff;
-  position: relative;
+  /* border: 1px solid #fff; */
+  position: absolute;
+  display: block;
+  /* float: left; */
+  height: auto;
+  bottom: 1em;
+  width: 70%;
+  border-radius: 5px;
+  left: 15%;
 }
 
 .pickInfo p {
@@ -46,9 +67,13 @@ body {
   padding: 0;
   border-radius: 20px;
   margin: 0;
-  right: 1em;
-  bottom: 50%;
-  margin-bottom: -10px;
+  right: 10px;
+  /* bottom: 50%; */
+  cursor: pointer;
+  margin-top: -11px;
+  z-index: 9999999;
+  border: 2px solid #b19b08;
+  top: 50%;
 }
 
 .pickInfo p::before {
@@ -56,7 +81,7 @@ body {
   top: 4px;
   position: absolute;
   margin: 0 auto;
-  left: 6px;
+  left: 7px;
 }
 
 #picklist .select {
@@ -66,8 +91,8 @@ body {
   clear: both;
   float: left;
   margin-left: 6%;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.5em;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 0.5em;
 }
 
 #picklist .sdodatki {
@@ -82,7 +107,7 @@ body {
   float: left;
   margin: 2px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 2em;
 }
 #picklist .select a:not(.clr) {
@@ -120,6 +145,9 @@ body {
   margin: 3px;
   border-radius: .5em;
   border: 1px solid #333;
+}
+.sdodatki.clr.check::after {
+  border-radius: none !important;
 }
 
 .clr {
@@ -221,8 +249,7 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
-  border-radius: 1em;
-  box-shadow: 0 0 0 1px #333 inset;
+  box-shadow: 0 0 0 1px #333;
 }
 
 .sdodatki a {
@@ -240,13 +267,11 @@ body {
   line-height: 3em;
   text-decoration: none;
   color: #000;
-  /* margin-top: 1em; */
   border-top: 1px solid #ccc;
 }
 
 .placeOrder:hover {
   background-color: gold;
-  /* color: white; */
 }
 
 .fullscreen_container {
@@ -264,6 +289,23 @@ body {
   float: left;
 }
 
+.info_container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 100000;
+  display: none;
+}
+
+.info_container img {
+  width: 25px;
+  float: left;
+}
+
 .switch_model {
   width: 80px;
   height: 80px;
@@ -277,20 +319,34 @@ body {
 
 .nextprevHolder {
   position: absolute;
-  width: 90px;
+  display: none;
+  width: auto;
   height: 30px;
   left: 50%;
   margin-left: -45px;
+  background: gold;
   bottom: 35px;
+  border-radius: 30px;
 }
-
+.np_info {
+  width: auto;
+  height: 30px;
+  display: block;
+  float: left;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: .8em;
+  color: #333;
+}
 .next {
   width: 30px;
   height: 30px;
   display: block;
-  position: absolute;
+  position: relative;
   right: 0;
   cursor: pointer;
+  transform: scale(.4);
+  float: right;
 }
 
 .next::before {
@@ -299,7 +355,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: white;
+  background-color: #333;
   transform: rotate(-45deg);
   top: 50%;
   margin-top: 6px;
@@ -313,20 +369,29 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: white;
+  background-color: #333;
   transform: rotate(45deg);
   top: 7px;
   left: 5px;
   border-radius: 2px;
 }
 
+.next:hover {
+  transform: translateX(2px) scale(.4);
+}
+.prev:hover {
+  transform: translateX(-2px) scale(.4) rotate(180deg);
+}
+
+
 .prev {
   width: 30px;
   height: 30px;
   display: block;
-  position: absolute;
-  transform: rotate(180deg);
+  position: relative;
+  transform: rotate(180deg) scale(.4);
   cursor: pointer;
+  float: left;
 }
 
 .prev::before {
@@ -335,7 +400,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: white;
+  background-color: #333;
   transform: rotate(-45deg);
   top: 50%;
   margin-top: 6px;
@@ -349,7 +414,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: white;
+  background-color: #333;
   transform: rotate(45deg);
   top: 7px;
   left: 5px;
@@ -372,6 +437,8 @@ body {
   font-weight: normal;
   margin: 10px 0;
   padding: 0;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .button_container {
@@ -402,11 +469,12 @@ label {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  background: rgb(189, 189, 189);
+  background: rgb(101, 101, 101);
   border-radius: 30px;
   transition: background-color 0.4s;
   -moz-transition: background-color 0.4s;
   left: 50%;
+  transform: scale(.7);
   margin-left: -30px;
   -webkit-transition: background-color 0.4s;
 }
@@ -423,7 +491,7 @@ label:after {
 }
 
 input:checked+label {
-  background: rgb(39, 173, 95);
+  background: gold;
 }
 
 input:checked+label:after {
@@ -439,6 +507,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
+  top: 20px;
   text-align: center;
 }
 
@@ -461,11 +530,12 @@ input:not(:checked)~p:nth-of-type(2) {
 .head-stuff {
   margin: 40px auto;
   text-align: center;
+  height: auto;
+  display: block;
 }
 .head-stuff img {
   width: 200px;
   display: block;
-  /* float: left; */
   margin: 0 auto;
 }
 

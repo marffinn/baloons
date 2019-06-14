@@ -1,0 +1,37 @@
+{
+    "colors":[],
+    "materials":[{
+        "colorEmissive":[0,0,0],
+        "blending":"NormalBlending",
+        "DbgName":"Mat.003",
+        "colorDiffuse":[0.64,0.64,0.64],
+        "specularCoef":50,
+        "vertexColors":false,
+        "transparent":false,
+        "visible":true,
+        "depthTest":true,
+        "wireframe":false,
+        "DbgColor":15658734,
+        "DbgIndex":0,
+        "shading":"phong",
+        "depthWrite":true,
+        "doubleSided":false,
+        "colorSpecular":[0.5,0.5,0.5],
+        "opacity":1
+    }],
+    "uvs":[[0,0.429185,1,0.429185,1,1,0,1]],
+    "vertices":[-61.3103,-39.9279,13.0721,78.5777,-39.9279,13.0721,78.5777,39.9224,13.0721,-61.3103,39.9224,13.0721],
+    "faces":[43,0,1,2,3,0,0,1,2,3,0,0,0,0],
+    "metadata":{
+        "version":3,
+        "colors":0,
+        "materials":1,
+        "type":"Geometry",
+        "uvs":1,
+        "vertices":4,
+        "faces":1,
+        "generator":"io_three",
+        "normals":1
+    },
+    "normals":[0,-0,1]
+}
