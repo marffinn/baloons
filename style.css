@@ -146,6 +146,9 @@ body {
   border-radius: .5em;
   border: 1px solid #333;
 }
+.sdodatki.clr.check::after {
+  border-radius: none !important;
+}
 
 .clr {
   position: relative;
@@ -246,7 +249,6 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
-  /* border-radius: 1em; */
   box-shadow: 0 0 0 1px #333;
 }
 
@@ -467,11 +469,12 @@ label {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  background: rgb(189, 189, 189);
+  background: rgb(101, 101, 101);
   border-radius: 30px;
   transition: background-color 0.4s;
   -moz-transition: background-color 0.4s;
   left: 50%;
+  transform: scale(.7);
   margin-left: -30px;
   -webkit-transition: background-color 0.4s;
 }
@@ -488,7 +491,7 @@ label:after {
 }
 
 input:checked+label {
-  background: rgb(39, 173, 95);
+  background: gold;
 }
 
 input:checked+label:after {
@@ -504,6 +507,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
+  top: 20px;
   text-align: center;
 }
 
