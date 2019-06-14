@@ -44,10 +44,18 @@ body {
 }
 
 .pickInfo {
-  padding: .6em 1em;
+  z-index: 99999;
+  padding: 1em 1em;
   background-color: gold;
-  border-bottom: 1px solid #fff;
-  position: relative;
+  /* border: 1px solid #fff; */
+  position: absolute;
+  display: block;
+  /* float: left; */
+  height: auto;
+  bottom: 1em;
+  width: 70%;
+  border-radius: 5px;
+  left: 15%;
 }
 
 .pickInfo p {
@@ -59,10 +67,13 @@ body {
   padding: 0;
   border-radius: 20px;
   margin: 0;
-  right: 1em;
-  bottom: 50%;
+  right: 10px;
+  /* bottom: 50%; */
   cursor: pointer;
-  margin-bottom: -10px;
+  margin-top: -11px;
+  z-index: 9999999;
+  border: 2px solid #b19b08;
+  top: 50%;
 }
 
 .pickInfo p::before {
@@ -70,7 +81,7 @@ body {
   top: 4px;
   position: absolute;
   margin: 0 auto;
-  left: 6px;
+  left: 7px;
 }
 
 #picklist .select {
@@ -276,6 +287,23 @@ body {
   float: left;
 }
 
+.info_container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 100000;
+  display: none;
+}
+
+.info_container img {
+  width: 25px;
+  float: left;
+}
+
 .switch_model {
   width: 80px;
   height: 80px;
@@ -315,7 +343,7 @@ body {
   position: relative;
   right: 0;
   cursor: pointer;
-  transform: scale(.7);
+  transform: scale(.4);
   float: right;
 }
 
@@ -346,12 +374,20 @@ body {
   border-radius: 2px;
 }
 
+.next:hover {
+  transform: translateX(2px) scale(.4);
+}
+.prev:hover {
+  transform: translateX(-2px) scale(.4) rotate(180deg);
+}
+
+
 .prev {
   width: 30px;
   height: 30px;
   display: block;
   position: relative;
-  transform: rotate(180deg) scale(.7);
+  transform: rotate(180deg) scale(.4);
   cursor: pointer;
   float: left;
 }

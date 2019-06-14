@@ -23,8 +23,10 @@
       <div class="next"></div>
     </div>
 
+
+
     <div id="picklist">
-        <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor poniżej.<p></p></div>
+
         <h2 class="product-name"> . </h2>
         <div class="select skolory">
           <h4> Kolory: </h4>
@@ -67,6 +69,12 @@
             <p>zatrzymaj animację</p>
             <p>rozpocznij animację</p>
         </section>
+    </div>
+
+    <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p></div>
+
+    <div class="info_container" state="off">
+        <img src="assets/img/info.svg">
     </div>
     <div class="fullscreen_container" state="off">
         <img src="assets/img/fullscreen.svg">
