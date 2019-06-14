@@ -58,6 +58,8 @@
           <a class="clr" href="#" target="_self"> Oświetlenie wewnątrz balonu</a>
           <a class="clr" href="#" target="_self"> Materiał trudnopalny z cert. B1</a>
           <a class="clr" href="#" target="_self"> Obciążniki piaskowe</a>
+          <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
+          <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
         </div>
 
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>

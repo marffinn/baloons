@@ -107,7 +107,7 @@ body {
   float: left;
   margin: 2px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 2em;
 }
 #picklist .select a:not(.clr) {
@@ -246,8 +246,8 @@ body {
   position: absolute;
   background-color: white;
   top: 0.25em;
-  border-radius: 1em;
-  box-shadow: 0 0 0 1px #333 inset;
+  /* border-radius: 1em; */
+  box-shadow: 0 0 0 1px #333;
 }
 
 .sdodatki a {
@@ -322,7 +322,7 @@ body {
   height: 30px;
   left: 50%;
   margin-left: -45px;
-  background: white;
+  background: gold;
   bottom: 35px;
   border-radius: 30px;
 }
