@@ -27,7 +27,7 @@
 
     <div id="picklist">
 
-        <h2 class="product-name"> . </h2>
+        <h2 class="product-name"></h2>
         <div class="select skolory">
           <h4> Kolory: </h4>
           <a href="#" target="_self" rel="white"        hex="#ffffff"> <p></p> </a>
