@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .noflow {
   overflow: hidden;
@@ -32,13 +33,13 @@ body {
 }
 
 #picklist {
-  width: 290px;
+  width: 280px;
   height: auto;
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   z-index: 999;
   overflow: hidden;
 }
@@ -46,7 +47,7 @@ body {
 .pickInfo {
   z-index: 99999;
   padding: 1em 1em;
-  background-color: gold;
+  background-color: #00aeef;
   /* border: 1px solid #fff; */
   position: absolute;
   display: block;
@@ -55,6 +56,7 @@ body {
   bottom: 1em;
   width: 70%;
   border-radius: 5px;
+  color: white;
   left: 15%;
 }
 
@@ -68,31 +70,53 @@ body {
   border-radius: 20px;
   margin: 0;
   right: 10px;
-  /* bottom: 50%; */
   cursor: pointer;
   margin-top: -11px;
   z-index: 9999999;
-  border: 2px solid #b19b08;
+  border: 2px solid #0782af;
   top: 50%;
+  transform: rotate(45deg);
 }
 
 .pickInfo p::before {
-  content: 'X';
-  top: 4px;
+  content: '';
+  top: 50%;
   position: absolute;
   margin: 0 auto;
-  left: 7px;
+  left: 50%;
+  color: black;
+  width: 10px;
+  margin-left: -5px;
+  height: 2px;
+  background-color: #333;
+  margin-top: -1px;
+}
+.pickInfo p::after {
+  content: '';
+  top: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  color: black;
+  width: 2px;
+  margin-left: -1px;
+  height: 10px;
+  margin-top: -5px;
+  background-color: #333;
 }
 
 #picklist .select {
-  width: 88%;
+  width: 80%;
   display: block;
   height: auto;
   clear: both;
-  float: left;
-  margin-left: 6%;
-  border-bottom: 1px dashed #ccc;
+  /* float: left; */
+  margin: 0 10%;
+  5: 1px
+  solid #e5e5e5;
   margin-bottom: 0.5em;
+  position: relative;
+  /* padding-bottom: .5em; */
 }
 
 #picklist .sdodatki {
@@ -107,16 +131,16 @@ body {
   float: left;
   margin: 2px;
   position: relative;
-  /* overflow: hidden; */
+  font-size: .8em;
   border-radius: 2em;
 }
 #picklist .select a:not(.clr) {
-  width: 1.5em;
-  height: 1.5em;
+  width: 20px;
+  height: 20px;
   display: block;
   background-color: #999;
   float: left;
-  margin: 2px;
+  margin: 3px;
   position: relative;
   overflow: hidden;
   border-radius: 2em;
@@ -136,15 +160,17 @@ body {
 
 .clr.check::after {
   content: '';
-  width: .5em;
-  height: .5em;
+  width: 5px;
+  height: 5px;
   display: block;
   position: absolute;
-  background-color: gold;
-  top: 0.25em;
-  margin: 3px;
+  background-color: #00aeef;
+  top: 50%;
+  margin-top: -3.5px;
   border-radius: .5em;
-  border: 1px solid #333;
+  left: 6px;
+  border: 1px solid #044861;
+  margin-left: -2.5px;
 }
 .sdodatki.clr.check::after {
   border-radius: none !important;
@@ -157,6 +183,8 @@ body {
 .select h4 {
   font-weight: normal;
   margin: 5px 0;
+  text-transform: uppercase;
+  font-size: .8em;
 }
 
 .select a {
@@ -168,7 +196,7 @@ body {
   width: 10px;
   height: 10px;
   display: none;
-  position: absolute;
+  position: relative;
   left: 50%;
   margin-left: -6px;
   top: 50%;
@@ -195,12 +223,13 @@ body {
 
 .skolory .clr::before {
   content: '';
-  width: 1em;
-  height: 1em;
+  width: 15px;
+  height: 15px;
   display: block;
   position: absolute;
   background-color: white;
-  top: 0.25em;
+  top: 50%;
+  margin-top: -7.5px;
   border-radius: 1em;
   box-shadow: 0 0 0 1px #333 inset;
 }
@@ -219,14 +248,15 @@ body {
 
 .srozmiar .clr::before {
   content: '';
-  width: 1em;
-  height: 1em;
+  width: 15px;
+  height: 15px;
   display: block;
   position: absolute;
   background-color: white;
-  top: 0.25em;
-  border-radius: 1em;
+  top: 50%;
+  border-radius: 15px;
   box-shadow: 0 0 0 1px #333 inset;
+  margin-top: -7.5px;
 }
 
 .sdodatki .clr {
@@ -243,12 +273,13 @@ body {
 
 .sdodatki .clr::before {
   content: '';
-  width: 1em;
-  height: 1em;
+  width: 15px;
+  height: 15px;
   display: block;
   position: absolute;
   background-color: white;
-  top: 0.25em;
+  top: 50%;
+  margin-top: -7.5px;
   box-shadow: 0 0 0 1px #333;
 }
 
@@ -268,10 +299,28 @@ body {
   text-decoration: none;
   color: #000;
   border-top: 1px solid #ccc;
+  margin-top: 1em;
 }
 
 .placeOrder:hover {
-  background-color: gold;
+  background-color: #00aeef;
+}
+
+.rotate_container {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 13px;
+  cursor: pointer;
+  padding: 0;
+  bottom: 85px;
+  margin-top: -12.5px;
+}
+
+.rotate_container img {
+  width: 40px;
+  float: left;
 }
 
 .fullscreen_container {
@@ -287,6 +336,35 @@ body {
 .fullscreen_container img {
   width: 25px;
   float: left;
+}
+.category_container {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  padding: 0;
+  top: 20px;
+}
+
+.category_container img {
+  width: 25px;
+  float: left;
+}
+.category_container p {
+    height: 25px;
+    width: 145px;
+    display: block;
+    position: absolute;
+    margin: 0;
+    line-height: 25px;
+    background-color: white;
+    color: black;
+    padding: 0 20px;
+    top: 0;
+    border-radius: 0px 5px 5px 0px;
+    left: 27px;
 }
 
 .info_container {
@@ -324,7 +402,7 @@ body {
   height: 30px;
   left: 50%;
   margin-left: -45px;
-  background: gold;
+  background: #ffffff;
   bottom: 35px;
   border-radius: 30px;
 }
@@ -334,9 +412,9 @@ body {
   display: block;
   float: left;
   line-height: 30px;
-  font-weight: 600;
   font-size: .8em;
-  color: #333;
+  color: black;
+  text-transform:uppercase;
 }
 .next {
   width: 30px;
@@ -355,7 +433,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: #333;
+  background-color: black;
   transform: rotate(-45deg);
   top: 50%;
   margin-top: 6px;
@@ -369,7 +447,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: #333;
+  background-color: black;
   transform: rotate(45deg);
   top: 7px;
   left: 5px;
@@ -400,7 +478,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: #333;
+  background-color: black;
   transform: rotate(-45deg);
   top: 50%;
   margin-top: 6px;
@@ -414,7 +492,7 @@ body {
   height: 2px;
   display: block;
   position: absolute;
-  background-color: #333;
+  background-color: black;
   transform: rotate(45deg);
   top: 7px;
   left: 5px;
@@ -491,7 +569,7 @@ label:after {
 }
 
 input:checked+label {
-  background: gold;
+  background: #00aeef;
 }
 
 input:checked+label:after {
@@ -502,7 +580,7 @@ input:checked+label:after {
 p {
   position: absolute;
   font-size: 11px;
-  color: #333;
+  color: white;
   display: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -575,7 +653,7 @@ input:not(:checked)~p:nth-of-type(2) {
 .img-holder p {}
 
 .img-holder:hover {
-  background-color: gold;
+  background-color: #00aeef;
 }
 
 .img-holder img {

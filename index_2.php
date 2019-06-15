@@ -9,6 +9,7 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
@@ -16,6 +17,15 @@
 <body class="noflow">
     <div id="container"></div>
     <div id="modal"></div>
+
+    <div class="category_container">
+        <img src="assets/img/category.svg">
+        <p>Powrót do kategorii</p>
+    </div>
+
+    <div class="rotate_container" state='off'>
+        <img src="assets/img/3d.svg">
+    </div>
 
     <div class="nextprevHolder">
       <div class="prev"></div>
@@ -64,14 +74,14 @@
 
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
-    <div class="button_container">
+    <!-- <div class="button_container">
         <section>
             <input type="checkbox" id="light-switch" state="off" />
             <label for="light-switch"></label>
             <p>zatrzymaj animację</p>
             <p>rozpocznij animację</p>
         </section>
-    </div>
+    </div> -->
 
     <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p></div>
 
