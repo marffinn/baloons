@@ -1,6 +1,4 @@
-<?php
-  $numer = $_GET['numer'];
-?>
+<?php $numer = $_GET['numer']; ?>
 <!DOCTYPE html>
 <html>
 
@@ -101,10 +99,11 @@
     <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
     <script src="lib/index.js" type="text/javascript"></script>
-    <script src="lib/driver.js" type="text/javascript"></script>
+    <script src="lib/driver_new.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script type="text/javascript">
-      animIn(<?php echo $numer; ?>);
+      animIn('<?php echo $numer; ?>');
+      // animInIn('kulka');
     </script>
 
 
