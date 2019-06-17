@@ -58,7 +58,7 @@
           <a class="clr" href="#" target="_self"> Druk na pasie</a>
         </div>
         <div class="select srozmiar">
-          <h4> Rozmiar: </h4>
+          <h4> Rozmiar/Typ: </h4>
           <a class="clr" href="#" target="_self" >B-16</a>
           <a class="clr" href="#" target="_self" >B-12</a>
           <a class="clr" href="#" target="_self" >Kula</a>
@@ -74,6 +74,7 @@
 
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
+
     <!-- <div class="button_container">
         <section>
             <input type="checkbox" id="light-switch" state="off" />
