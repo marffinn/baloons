@@ -57,9 +57,7 @@
         </div>
         <div class="select srozmiar">
           <h4> Rozmiar/Typ: </h4>
-          <!-- <a class="clr" href="#" target="_self" >B-16</a>
-          <a class="clr" href="#" target="_self" >B-12</a>
-          <a class="clr" href="#" target="_self" >Kula</a> -->
+          <!-- here to be loded options -->
         </div>
         <div class="select sdodatki">
           <h4> Dodatki: </h4>
