@@ -73,7 +73,7 @@ body {
   cursor: pointer;
   margin-top: -11px;
   z-index: 9999999;
-  border: 2px solid #0782af;
+  border: 1px solid #0782af;
   top: 50%;
   transform: rotate(45deg);
 }
@@ -106,17 +106,18 @@ body {
 }
 
 #picklist .select {
-  width: 80%;
+  width: 90%;
   display: block;
   height: auto;
   clear: both;
-  /* float: left; */
-  margin: 0 10%;
+  float: left;
+  padding: 0 5%;
   5: 1px
   solid #e5e5e5;
-  margin-bottom: 0.5em;
+  margin-top: 0px;
   position: relative;
-  /* padding-bottom: .5em; */
+  margin-bottom: 10px;
+  border-top: 1px solid #ccc;
 }
 
 #picklist .sdodatki {
@@ -185,6 +186,7 @@ body {
   margin: 5px 0;
   text-transform: uppercase;
   font-size: .8em;
+  text-align: center;
 }
 
 .select a {

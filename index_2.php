@@ -27,7 +27,7 @@
 
     <div class="nextprevHolder">
       <div class="prev"></div>
-      <div class="np_info"> Przełącz model </div>
+      <div class="np_info"> obracaj model </div>
       <div class="next"></div>
     </div>
 
@@ -57,9 +57,9 @@
         </div>
         <div class="select srozmiar">
           <h4> Rozmiar/Typ: </h4>
-          <a class="clr" href="#" target="_self" >B-16</a>
+          <!-- <a class="clr" href="#" target="_self" >B-16</a>
           <a class="clr" href="#" target="_self" >B-12</a>
-          <a class="clr" href="#" target="_self" >Kula</a>
+          <a class="clr" href="#" target="_self" >Kula</a> -->
         </div>
         <div class="select sdodatki">
           <h4> Dodatki: </h4>
@@ -103,7 +103,7 @@
     <script src="lib/scene.js" type="text/javascript"></script>
     <script type="text/javascript">
       animIn('<?php echo $numer; ?>');
-      // animInIn('kulka');
+      chosenModel = '<?php echo $numer; ?>' ;
     </script>
 
 
