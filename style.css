@@ -47,7 +47,7 @@ body {
 .pickInfo {
   z-index: 99999;
   padding: 1em 1em;
-  background-color: #00aeef;
+  background-color: white;
   /* border: 1px solid #fff; */
   position: absolute;
   display: block;
@@ -56,7 +56,7 @@ body {
   bottom: 20px;
   width: 200px;
   border-radius: 5px;
-  color: white;
+  color: black;
   left: 80px;
 }
 
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
   margin-top: -11px;
   z-index: 9999999;
-  border: 1px solid #0782af;
+  border: 1px solid #000000;
   top: 50%;
   transform: rotate(45deg);
 }

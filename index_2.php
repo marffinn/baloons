@@ -67,18 +67,8 @@
           <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
           <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
         </div>
-
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
-
-    <!-- <div class="button_container">
-        <section>
-            <input type="checkbox" id="light-switch" state="off" />
-            <label for="light-switch"></label>
-            <p>zatrzymaj animację</p>
-            <p>rozpocznij animację</p>
-        </section>
-    </div> -->
 
     <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p></div>
 
@@ -103,8 +93,6 @@
       animIn('<?php echo $numer; ?>');
       chosenModel = '<?php echo $numer; ?>' ;
     </script>
-
-
 
 </body>
 
