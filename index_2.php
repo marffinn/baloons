@@ -31,6 +31,18 @@
       <div class="next"></div>
     </div>
 
+    <div class="zoomInOut">
+      <div class="zoomIn">
+        <img src="assets\img\zoomIn.svg">
+        <p>przybliż</p>
+      </div>
+      <div class="zoomOut">
+        <img src="assets\img\zoomOut.svg">
+        <p>oddal</p>
+      </div>
+    </div>
+
+
     <div id="picklist">
 
         <h2 class="product-name"></h2>
