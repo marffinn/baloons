@@ -18,7 +18,7 @@
 
     <div class="category_container">
         <img src="assets/img/category.svg">
-        <p>Powrót do kategorii</p>
+        <p>Kategorie</p>
     </div>
 
     <div class="rotate_container" state='off'>
@@ -30,8 +30,6 @@
       <div class="np_info"> obracaj model </div>
       <div class="next"></div>
     </div>
-
-
 
     <div id="picklist">
 
