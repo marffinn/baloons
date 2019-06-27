@@ -14,7 +14,9 @@
 
 <body class="noflow">
     <div id="container"></div>
-    <div id="modal"></div>
+    <div id="modal">
+      <input type="file" title="Click to add Files">
+    </div>
 
     <div class="category_container">
         <img src="assets/img/category.svg">
@@ -92,6 +94,11 @@
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
+    <script src="uploader/js/jquery.dm-uploader.min.js"></script>
+    <script src="uploader/ui.js"></script>
+    <script src="uploader/config.js"></script>
+
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
     <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
