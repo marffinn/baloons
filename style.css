@@ -45,7 +45,7 @@ body {
 
 .pickInfo {
 	z-index: 99999;
-	padding: 1em 1em;
+	padding: 1em 1.3em;
 	background-color: white;
 	position: absolute;
 	display: block;
@@ -66,13 +66,13 @@ body {
 	padding: 0;
 	border-radius: 20px;
 	margin: 0;
-	right: -11px;
+	right: 2px;
 	cursor: pointer;
 	margin-top: -11px;
 	z-index: 9999999;
-	top: 0px;
+	top: 12px;
 	transform: rotate(45deg);
-	box-shadow: 0 0 0 1px gray;
+	/* box-shadow: 0 0 0 1px #d6d6d6; */
 }
 
 .pickInfo p::before {
