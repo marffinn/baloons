@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0px;
+
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -817,6 +818,8 @@ body {
 }
 
 .head-stuff {
+  margin: 40px auto;
+  text-align: center;
   height: auto;
   display: block;
 }
@@ -843,6 +846,7 @@ body {
   position: relative;
   margin: 0 auto;
   box-shadow: 0 0 0 1px #ccc;
+  margin-bottom: 40px;
 }
 
 .img-holder {
