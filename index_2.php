@@ -15,8 +15,8 @@
 <body class="noflow">
     <div id="container"></div>
     <div id="modal">
-      <input type="file" title="Click to add Files">
-      <label for="file">Choose a file</label>
+      <input type="file" title="Wczytaj logotyp">
+      <!-- <label for="file">Choose a file</label> -->
     </div>
 
     <div class="category_container">
@@ -70,8 +70,8 @@
           <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
 
           <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
-          <a class="clr" href="#" target="_self"> Cały w nadruku</a>
-          <a class="clr" href="#" target="_self"> Druk na pasie</a>
+          <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
+          <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
         </div>
         <div class="select srozmiar">
           <h4> Rozmiar/Typ: </h4>
