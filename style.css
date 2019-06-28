@@ -301,6 +301,7 @@ body {
   color: #000;
   border-top: 1px solid #ccc;
   margin-top: 0px;
+  font-size: 0.8em;
 }
 
 .placeOrder:hover {
