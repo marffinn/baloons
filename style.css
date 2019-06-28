@@ -401,112 +401,6 @@ body {
 	cursor: pointer;
 }
 
-.nextprevHolder {
-	position: absolute;
-	display: none;
-	width: auto;
-	height: 30px;
-	left: 50%;
-	margin-left: -45px;
-	background: #ffffff;
-	bottom: 35px;
-	border-radius: 30px;
-}
-
-.np_info {
-	width: auto;
-	height: 30px;
-	display: block;
-	float: left;
-	line-height: 30px;
-	font-size: .8em;
-	color: black;
-	text-transform: uppercase;
-}
-
-.next {
-	width: 30px;
-	height: 30px;
-	display: block;
-	position: relative;
-	right: 0;
-	cursor: pointer;
-	transform: scale(.4);
-	float: right;
-}
-
-.next::before {
-	content: '';
-	width: 20px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	background-color: black;
-	transform: rotate(-45deg);
-	top: 50%;
-	margin-top: 6px;
-	border-radius: 2px;
-	left: 5px;
-}
-
-.next::after {
-	content: '';
-	width: 20px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	background-color: black;
-	transform: rotate(45deg);
-	top: 7px;
-	left: 5px;
-	border-radius: 2px;
-}
-
-.next:hover {
-	transform: translateX(2px) scale(.4);
-}
-
-.prev:hover {
-	transform: translateX(-2px) scale(.4) rotate(180deg);
-}
-
-.prev {
-	width: 30px;
-	height: 30px;
-	display: block;
-	position: relative;
-	transform: rotate(180deg) scale(.4);
-	cursor: pointer;
-	float: left;
-}
-
-.prev::before {
-	content: '';
-	width: 20px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	background-color: black;
-	transform: rotate(-45deg);
-	top: 50%;
-	margin-top: 6px;
-	border-radius: 2px;
-	left: 5px;
-}
-
-.prev::after {
-	content: '';
-	width: 20px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	background-color: black;
-	transform: rotate(45deg);
-	top: 7px;
-	left: 5px;
-	border-radius: 2px;
-}
-
 
 /* ------------------------------------------------- */
 
@@ -810,7 +704,7 @@ body {
 	display: block;
 	float: left;
 	position: relative;
-  cursor: pointer; 
+  cursor: pointer;
 
 }
 .rotateRight img {
