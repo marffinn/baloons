@@ -411,6 +411,9 @@ body {
 	width: auto;
 	height: 25px;
 	left: 60%;
+	background-color: #00aeef;
+	padding: 5px 12px;
+	border-radius: 20px;
 }
 
 .zoomInOut img {
@@ -619,10 +622,13 @@ body {
 .rotateHolder {
 	bottom: 35px;
 	position: absolute;
+	padding: 5px 12px;
 	display: flex;
 	width: auto;
 	height: 25px;
 	left: 40%;
+	background-color: #00aeef;
+	border-radius: 20px;
 }
 
 .rotateHolder img {
