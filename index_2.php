@@ -16,6 +16,7 @@
     <div id="container"></div>
     <div id="modal">
       <input type="file" title="Click to add Files">
+      <label for="file">Choose a file</label>
     </div>
 
     <div class="category_container">
@@ -27,10 +28,21 @@
         <img src="assets/img/3d.svg">
     </div>
 
-    <div class="nextprevHolder">
+    <!-- <div class="nextprevHolder">
       <div class="prev"></div>
       <div class="np_info"> obracaj model </div>
       <div class="next"></div>
+    </div> -->
+
+    <div class="rotateHolder">
+      <div class="rotateLeft">
+        <img src="assets/img/rotating-circular-arrow.svg">
+        <p>obracaj w lewo</p>
+      </div>
+      <div class="rotateRight">
+        <img src="assets/img/rotating-circular-arrow.svg">
+        <p>obracaj w prawo</p>
+      </div>
     </div>
 
     <div class="zoomInOut">
