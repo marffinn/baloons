@@ -28,12 +28,6 @@
         <img src="assets/img/3d.svg">
     </div>
 
-    <!-- <div class="nextprevHolder">
-      <div class="prev"></div>
-      <div class="np_info"> obracaj model </div>
-      <div class="next"></div>
-    </div> -->
-
     <div class="rotateHolder">
       <div class="rotateLeft">
         <img src="assets/img/rotating-circular-arrow.svg">
