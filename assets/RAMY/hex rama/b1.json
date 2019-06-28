@@ -1,0 +1,36 @@
+{
+    "faces":[42,5,0,1,0,5,0,1,0,0,0,42,1,2,3,0,1,2,3,0,0,0,42,3,4,5,0,3,4,5,0,0,0,42,1,3,5,0,1,3,5,0,0,0],
+    "materials":[{
+        "specularCoef":50,
+        "depthWrite":true,
+        "opacity":1,
+        "depthTest":true,
+        "visible":true,
+        "vertexColors":false,
+        "doubleSided":false,
+        "transparent":false,
+        "wireframe":false,
+        "colorSpecular":[0.5,0.5,0.5],
+        "DbgIndex":0,
+        "colorEmissive":[0,0,0],
+        "DbgColor":15658734,
+        "DbgName":"_",
+        "shading":"phong",
+        "blending":"NormalBlending"
+    }],
+    "uvs":[[0.197477,1,0,0.65796,0.197477,0.31592,0.802523,0.31592,1,0.65796,0.802523,1]],
+    "vertices":[-25.6657,68.6761,11.8365,-42.4194,39.6578,11.8365,-25.6657,10.6396,11.8365,25.6657,10.6396,11.8365,42.4194,39.6578,11.8365,25.6657,68.6761,11.8365],
+    "normals":[0,0,1],
+    "metadata":{
+        "type":"Geometry",
+        "vertices":6,
+        "version":3,
+        "normals":1,
+        "materials":1,
+        "uvs":1,
+        "generator":"io_three",
+        "faces":4,
+        "colors":0
+    },
+    "colors":[]
+}

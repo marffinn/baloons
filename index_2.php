@@ -1,6 +1,4 @@
-<?php
-  $numer = $_GET['numer'];
-?>
+<?php $numer = $_GET['numer']; ?>
 <!DOCTYPE html>
 <html>
 
@@ -9,20 +7,48 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
 
 <body class="noflow">
     <div id="container"></div>
-    <div id="modal"></div>
-
-    <div class="nextprevHolder">
-      <div class="prev"></div>
-      <div class="np_info"> Przełącz model </div>
-      <div class="next"></div>
+    <div id="modal">
+      <input type="file" title="Wczytaj logotyp">
+      <!-- <label for="file">Choose a file</label> -->
     </div>
 
+    <div class="category_container">
+        <img src="assets/img/category.svg">
+        <p>Kategorie</p>
+    </div>
+
+    <div class="rotate_container" state='off'>
+        <img src="assets/img/3d.svg">
+    </div>
+
+    <div class="rotateHolder">
+      <div class="rotateLeft">
+        <img src="assets/img/rotating-circular-arrow.svg">
+        <p>obracaj w lewo</p>
+      </div>
+      <div class="rotateRight">
+        <img src="assets/img/rotating-circular-arrow.svg">
+        <p>obracaj w prawo</p>
+      </div>
+    </div>
+
+    <div class="zoomInOut">
+      <div class="zoomIn">
+        <img src="assets\img\zoomIn.svg">
+        <p>przybliż</p>
+      </div>
+      <div class="zoomOut">
+        <img src="assets\img\zoomOut.svg">
+        <p>oddal</p>
+      </div>
+    </div>
 
 
     <div id="picklist">
@@ -44,14 +70,12 @@
           <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
 
           <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
-          <a class="clr" href="#" target="_self"> Cały w nadruku</a>
-          <a class="clr" href="#" target="_self"> Druk na pasie</a>
+          <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
+          <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
         </div>
         <div class="select srozmiar">
-          <h4> Rozmiar: </h4>
-          <a class="clr" href="#" target="_self" >B-16</a>
-          <a class="clr" href="#" target="_self" >B-12</a>
-          <a class="clr" href="#" target="_self" >Kula</a>
+          <h4> Rozmiar/Typ: </h4>
+          <!-- here to be loded options -->
         </div>
         <div class="select sdodatki">
           <h4> Dodatki: </h4>
@@ -61,16 +85,7 @@
           <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
           <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
         </div>
-
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
-    </div>
-    <div class="button_container">
-        <section>
-            <input type="checkbox" id="light-switch" state="off" />
-            <label for="light-switch"></label>
-            <p>zatrzymaj animację</p>
-            <p>rozpocznij animację</p>
-        </section>
     </div>
 
     <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p></div>
@@ -85,18 +100,22 @@
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+
+    <script src="uploader/js/jquery.dm-uploader.min.js"></script>
+    <script src="uploader/ui.js"></script>
+    <script src="uploader/config.js"></script>
+
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
     <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
     <script src="lib/index.js" type="text/javascript"></script>
-    <script src="lib/driver.js" type="text/javascript"></script>
+    <script src="lib/driver_new.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script type="text/javascript">
-      animIn(<?php echo $numer; ?>);
+      animIn('<?php echo $numer; ?>');
+      chosenModel = '<?php echo $numer; ?>' ;
     </script>
-
-
 
 </body>
 
