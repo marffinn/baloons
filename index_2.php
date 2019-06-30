@@ -101,8 +101,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 
-    <script src="uploader/js/jquery.dm-uploader.min.js"></script>
-    <script src="uploader/ui.js"></script>
+    <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
 
     <script src="lib/WebGL.js" type="text/javascript"></script>

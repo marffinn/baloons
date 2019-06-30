@@ -2,12 +2,12 @@ $(function(){
   /*
    * For the sake keeping the code clean and the examples simple this file
    * contains only the plugin configuration & callbacks.
-   * 
+   *
    * UI functions ui_* can be located in: demo-ui.js
    */
   $('#drag-and-drop-zone').dmUploader({ //
-    url: 'backend/upload.php',
-    maxFileSize: 3000000, // 3 Megs 
+    url: 'upload.php',
+    maxFileSize: 3000000, // 3 Megs
     onDragEnter: function(){
       // Happens when dragging something over the DnD area
       this.addClass('active');
@@ -53,7 +53,7 @@ $(function(){
     },
     onUploadError: function(id, xhr, status, message){
       ui_multi_update_file_status(id, 'danger', message);
-      ui_multi_update_file_progress(id, 0, 'danger', false);  
+      ui_multi_update_file_progress(id, 0, 'danger', false);
     },
     onFallbackMode: function(){
       // When the browser doesn't support this plugin :(
