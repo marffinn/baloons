@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style-home.css" rel="stylesheet">
     <title> Konfigurator - Tent Grupa</title>
@@ -52,6 +53,10 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <script src="uploader/jquery.dm-uploader.min.js"></script>
+    <script src="uploader/config.js"></script>
+
     <script src="lib/index.js" type="text/javascript"></script>
 </body>
 </html>
