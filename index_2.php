@@ -1,4 +1,6 @@
-<?php $numer = $_GET['numer']; ?>
+<?php
+  $model = $_GET['model'];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -15,8 +17,8 @@
 <body class="noflow">
     <div id="container"></div>
     <div id="modal">
+      <p></p>
       <input type="file" title="Wczytaj logotyp">
-      <!-- <label for="file">Choose a file</label> -->
     </div>
 
     <div class="category_container">
@@ -100,6 +102,7 @@
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
@@ -112,8 +115,8 @@
     <script src="lib/driver_new.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script type="text/javascript">
-      animIn('<?php echo $numer; ?>');
-      chosenModel = '<?php echo $numer; ?>' ;
+      animIn('<?php echo $model; ?>');
+      chosenModel = '<?php echo $model; ?>' ;
     </script>
 
 </body>
