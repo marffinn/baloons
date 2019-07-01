@@ -38,7 +38,7 @@
                 <img src="assets/img/Tent-Grupa_namiot.svg" />
                 <p>Namiot</p>
             </div>
-            <div class="img-holder" model-data='rama'>
+            <div class="img-holder" model-data='rama5x3'>
                 <img src="assets/img/Tent-Grupa_rama.svg" />
                 <p>Rama</p>
             </div>
