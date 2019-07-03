@@ -74,6 +74,13 @@ body {
   margin-top: -5px;
   background-color: #333;
 }
+.fileList {
+  width: 300px;
+  height: auto;
+  display: block;
+  float: left;
+  position: absolute;
+}
 
 #picklist {
   width: 280px;
@@ -229,7 +236,6 @@ body {
   margin: 5px 0;
   text-transform: uppercase;
   font-size: .8em;
-  text-align: center;
 }
 
 .select a {

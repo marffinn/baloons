@@ -16,9 +16,14 @@
 
 <body class="noflow">
     <div id="container"></div>
+
     <div id="modal">
       <p></p>
       <input type="file" title="Wczytaj logotyp">
+    </div>
+
+    <div class='fileList'>
+      <img src="" />
     </div>
 
     <div class="category_container">
@@ -51,7 +56,6 @@
         <p>oddal</p>
       </div>
     </div>
-
 
     <div id="picklist">
 
