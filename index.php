@@ -30,7 +30,7 @@
               <img src="assets/img/Tent-Grupa_chwiej.svg" />
               <p>Chwiej</p>
             </div>
-            <div class="img-holder" model-data='flagi'>
+            <div class="img-holder" model-data='batfanbeach_90x195'>
                 <img src="assets/img/Tent-Grupa_flagi.svg" />
                 <p>Flaga</p>
             </div>
