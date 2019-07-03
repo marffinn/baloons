@@ -23,7 +23,9 @@
     </div>
 
     <div class='fileList'>
-      <img src="" />
+      <div class='inFileList'>
+      <!-- <p><img src="files\5d1c79b032151_background_1920x1080.jpg" /></p> -->
+    </div>
     </div>
 
     <div class="category_container">

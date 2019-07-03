@@ -75,11 +75,27 @@ body {
   background-color: #333;
 }
 .fileList {
-  width: 300px;
+  width: auto;
   height: auto;
   display: block;
   float: left;
   position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.fileList p {
+  width: 40px;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  /* margin-bottom: 0px; */
+}
+.fileList img {
+  width:100%;
+  object-fit: cover;
 }
 
 #picklist {
