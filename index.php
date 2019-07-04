@@ -22,7 +22,7 @@
                 <p>Balon</p>
 
             </div>
-            <div class="img-holder" model-data='brama'>
+            <div class="img-holder" model-data='prostok4x3'>
                 <img src="assets/img/Tent-Grupa_brama.svg" />
                 <p>Brama</p>
             </div>

@@ -25,10 +25,18 @@
       </div>
     </div>
 
+    <div id="modalOrder">
+      <p></p>
+      <h4 class="orderModelName"> MODEL MODEL MODEL 10x5 </h4>
+      <div class="orderOptions">
+        
+      </div>
+    </div>
+
     <div class='fileList'>
       <div class='inFileList'>
-      <!-- <p><img src="files\5d1c79b032151_background_1920x1080.jpg" /></p> -->
-    </div>
+      <!-- LIST LOADED -->
+      </div>
     </div>
 
     <div class="category_container">
