@@ -19,7 +19,10 @@
 
     <div id="modal">
       <p></p>
-      <input type="file" title="Wczytaj logotyp">
+      <div class="button-wrapper">
+        <span class="label"> Wyślij plik </span>
+          <input type="file" name="upload" id="upload" class="upload-box" placeholder="Upload File">
+      </div>
     </div>
 
     <div class='fileList'>
@@ -63,35 +66,43 @@
 
         <h2 class="product-name"></h2>
         <div class="select skolory">
+          <i></i>
           <h4> Kolory: </h4>
-          <a href="#" target="_self" rel="white"        hex="#ffffff"> <p></p> </a>
-          <a href="#" target="_self" rel="black"        hex="#000000"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone158c"  hex="#E87722"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone186c"  hex="#C8102E"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone368c"  hex="#78BE20"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone347c"  hex="#009A44"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone2925c" hex="#009CDE"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone286c"  hex="#0033A0"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"> <p></p> </a>
-          <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
-
-          <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
-          <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
-          <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
+          <div class="listerFoldable">
+            <a href="#" target="_self" rel="white"        hex="#ffffff"> <p></p> </a>
+            <a href="#" target="_self" rel="black"        hex="#000000"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone012c"  hex="#FEDD00"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone158c"  hex="#E87722"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone186c"  hex="#C8102E"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone368c"  hex="#78BE20"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone347c"  hex="#009A44"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone2925c" hex="#009CDE"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone286c"  hex="#0033A0"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"> <p></p> </a>
+            <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
+            <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
+            <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
+            <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
+          </div>
         </div>
         <div class="select srozmiar">
+          <i></i>
           <h4> Rozmiar/Typ: </h4>
-          <!-- here to be loded options -->
+          <div class="listerFoldable">
+            <!-- here to be loded options -->
+          </div>
         </div>
         <div class="select sdodatki">
+          <i></i>
           <h4> Dodatki: </h4>
-          <a class="clr" href="#" target="_self"> Oświetlenie wewnątrz balonu</a>
-          <a class="clr" href="#" target="_self"> Materiał trudnopalny z cert. B1</a>
-          <a class="clr" href="#" target="_self"> Obciążniki piaskowe</a>
-          <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
-          <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
+          <div class="listerFoldable">
+            <a class="clr" href="#" target="_self"> Oświetlenie wewnątrz balonu</a>
+            <a class="clr" href="#" target="_self"> Materiał trudnopalny z cert. B1</a>
+            <a class="clr" href="#" target="_self"> Obciążniki piaskowe</a>
+            <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
+            <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
+          </div>
         </div>
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
     </div>
@@ -117,7 +128,7 @@
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
     <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
-    <script src="lib/driver_new.js" type="text/javascript"></script>
+    <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script src="lib/index.js" type="text/javascript"></script>
     <script type="text/javascript">
