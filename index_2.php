@@ -27,10 +27,19 @@
 
     <div id="modalOrder">
       <p></p>
-      <h4 class="orderModelName"> MODEL MODEL MODEL 10x5 </h4>
-      <div class="orderOptions">
-        
+      <h4 class="orderModelName"></h4>
+      <ul class="orderOptions">
+        <!--  CHOSEN OPTIONS ARE LOADED HERE  -->
+      </ul>
+      <div class="linkCopy">
+        <input type="text" name="" value="link">
       </div>
+
+      <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+      <button class="btn" data-clipboard-target="#foo">
+          <img src="assets/img/clippy.svg" alt="Copy to clipboard">
+      </button>
+
     </div>
 
     <div class='fileList'>
@@ -128,6 +137,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
