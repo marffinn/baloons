@@ -31,9 +31,9 @@
       <ul class="orderOptions">
         <!--  CHOSEN OPTIONS ARE LOADED HERE  -->
       </ul>
-      <div class="linkCopy">
+      <!-- <div class="linkCopy">
         <input type="text" name="" value="link">
-      </div>
+      </div> -->
 
       <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
       <button class="btn" data-clipboard-target="#foo">

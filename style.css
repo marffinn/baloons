@@ -17,6 +17,18 @@ body {
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
+#foo {
+padding: .5em;
+margin: 0;
+float: left;
+margin-top: 10px;
+}
+button {
+    margin-top: 10px;
+}
+button img {
+width: 20px;
+}
 #modal {
   position: absolute;
   display: none;
