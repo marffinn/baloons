@@ -1,34 +1,35 @@
 body {
   padding: 0;
   margin: 0px;
-
   font-family: 'Open Sans', sans-serif;
 }
-
 .noflow {
   overflow: hidden;
 }
 
 #container {
   display: block;
-  z-index: 888;
+  z-index: 1;
   padding: 0;
   margin: :0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
 #foo {
-padding: .5em;
-margin: 0;
-float: left;
-margin-top: 10px;
+  padding: .5em;
+  margin: 0;
+  float: left;
+  margin-top: 10px;
 }
+
 button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
+
 button img {
-width: 20px;
+  width: 20px;
 }
+
 #modal {
   position: absolute;
   display: none;
@@ -37,7 +38,7 @@ button img {
   min-height: 20px;
   padding: 20px 20px;
   background-color: white;
-  z-index: 999;
+  z-index: 1;
   top: 2em;
   border-radius: .3em;
   left: 50%;
@@ -56,10 +57,11 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 9999999;
+  z-index: 1;
   top: 12px;
   transform: rotate(45deg);
 }
+
 #modal p::before {
   content: '';
   top: 50%;
@@ -87,6 +89,7 @@ button img {
   margin-top: -5px;
   background-color: #333;
 }
+
 /* ================================= */
 #modalOrder {
   position: absolute;
@@ -116,10 +119,11 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 9999999;
+  z-index: 10;
   top: 12px;
   transform: rotate(45deg);
 }
+
 #modalOrder p::before {
   content: '';
   top: 50%;
@@ -149,32 +153,35 @@ button img {
 }
 
 .orderOptions {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 .orderOptions li {
   padding: .2em .5em;
 }
+
 .orderOptions li:nth-child(even) {
   background: gainsboro;
 }
+
 .orderOptions i {
   font-style: normal;
 }
+
 .orderOptions b {
-    float: right;
-    font-weight: normal;
-}
-.orderModelName {
-    /* padding: .2em .5em; */
-    /* margin: 0 .5em; */
-    border-bottom: 1px dashed #ccc;
+  float: right;
+  font-weight: normal;
 }
 
+.orderModelName {
+  /* padding: .2em .5em; */
+  /* margin: 0 .5em; */
+  border-bottom: 1px dashed #ccc;
+}
 
 /* ================================= */
-
 .button-wrapper {
   position: relative;
   width: 150px;
@@ -191,23 +198,22 @@ button img {
   cursor: pointer;
   color: #fff;
   padding: 10px 0;
-  text-transform:uppercase;
-  font-size:12px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 #upload {
-    display: inline-block;
-    position: absolute;
-    z-index: 1;
-    /* width: 100%; */
-    /* height: 30px; */
-    top: 0;
-    left: 0;
-    opacity: 0;
-    cursor: pointer;
-    visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  /* width: 100%; */
+  /* height: 30px; */
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  visibility: hidden;
 }
-
 
 .fileList {
   width: auto;
@@ -218,6 +224,7 @@ button img {
   top: 50px;
   left: 20px;
 }
+
 .fileList p {
   width: 40px;
   height: auto;
@@ -228,8 +235,9 @@ button img {
   clear: both;
   /* margin-bottom: 0px; */
 }
+
 .fileList img {
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -241,8 +249,8 @@ button img {
   right: 20px;
   border-radius: 5px;
   background-color: white;
-  z-index: 999;
-  overflow: hidden;
+  z-index: 20;
+  /* overflow: hidden; */
 }
 
 .pickInfo {
@@ -271,7 +279,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 9999999;
+  z-index: 30;
   top: 12px;
   transform: rotate(45deg);
 }
@@ -311,13 +319,9 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px
-  solid #e5e5e5;
   margin-top: 0px;
   position: relative;
-  /* margin-bottom: 10px; */
   border-top: 1px dashed #ccc;
-  /* background-color: bisque; */
 }
 
 #picklist .sdodatki {
@@ -330,10 +334,12 @@ button img {
   display: block;
   background-color: #999;
   float: left;
-  margin: 2px;
+  /* margin: 2px; */
   position: relative;
   font-size: .8em;
-  border-radius: 2em;
+  /* border-radius: 2em; */
+  width: 100%;
+  text-transform: uppercase;
 }
 
 #picklist .select a:not(.clr) {
@@ -352,6 +358,7 @@ button img {
 .select {
   position: relative;
 }
+
 .select i {
   background-color: white;
   height: 20px;
@@ -364,7 +371,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 9999999;
+  z-index: 30;
   top: 12px;
   /* transform: rotate(45deg); */
 }
@@ -396,13 +403,18 @@ button img {
   margin-top: -5px;
   background-color: #333;
 }
+
 .listerFoldable {
-    padding-bottom: 0.5em;
-    width: 100%;
-    height: auto;
-    display: block;
-    float: left;
+  padding-bottom: 0.5em;
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  clear: both;
+  /* overflow: hidden; */
+  position: relative;
 }
+
 .check {
   width: 1em;
   height: 1em;
@@ -489,13 +501,12 @@ button img {
 
 .srozmiar .clr {
   clear: both;
-  width: auto !important;
   background-color: rgba(255, 255, 255, 0) !important;
-  line-height: 1.5em;
+  line-height: 2em;
   text-decoration: none;
   color: #333;
   text-indent: 2em;
-  height: 1.5em !important;
+  height: 2em !important;
   position: relative;
 }
 
@@ -635,7 +646,7 @@ button img {
   left: 20px;
   cursor: pointer;
   padding: 0;
-  z-index: 100000;
+  z-index: 1;
   display: block;
 }
 
@@ -1036,7 +1047,7 @@ button img {
   display: block;
   float: left;
   position: absolute;
-  z-index: 9999;
+  z-index: 1;
   background: yellow;
   height: 5px;
   width: 10px;

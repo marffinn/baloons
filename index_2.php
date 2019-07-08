@@ -31,9 +31,6 @@
       <ul class="orderOptions">
         <!--  CHOSEN OPTIONS ARE LOADED HERE  -->
       </ul>
-      <!-- <div class="linkCopy">
-        <input type="text" name="" value="link">
-      </div> -->
 
       <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
       <button class="btn" data-clipboard-target="#foo">
@@ -108,6 +105,9 @@
           <h4> Rozmiar/Typ: </h4>
           <div class="listerFoldable">
             <!-- here to be loded options -->
+            <!-- <div class="listerOptions">
+
+            </div> -->
           </div>
         </div>
         <div class="select sdodatki">
