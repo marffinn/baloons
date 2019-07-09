@@ -20,10 +20,7 @@
 
     <div id="modal">
       <p></p>
-      <div class="button-wrapper">
-        <span class="label"> Wyślij plik </span>
-          <input type="file" name="upload" id="upload" class="upload-box" placeholder="Upload File">
-      </div>
+      <input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
     </div>
 
     <div id="modalOrder">
