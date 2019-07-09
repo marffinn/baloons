@@ -104,19 +104,11 @@
         <div class="select srozmiar">
           <i></i>
           <h4> Rozmiar/Typ: </h4>
-          <div class="listerFoldable">
-            <!-- here to be loded options -->
-          </div>
+
           <select class="sizeSelector">
-            <!-- <option value="A">ertA</option>
-            <option value="b">A</option>
-            <option value="45">df</option>
-            <option value="33">dd</option>
-            <option value="2">ss</option>
-            <option value="78">bb</option>
-            <option value="44">ggg</option>
-            <option value="5">ggf</option> -->
+            <!--  options to be loaded into this option list -->
           </select>
+
         </div>
         <div class="select sdodatki">
           <i></i>
