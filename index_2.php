@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="selectric.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
 
@@ -31,9 +32,6 @@
       <ul class="orderOptions">
         <!--  CHOSEN OPTIONS ARE LOADED HERE  -->
       </ul>
-      <!-- <div class="linkCopy">
-        <input type="text" name="" value="link">
-      </div> -->
 
       <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
       <button class="btn" data-clipboard-target="#foo">
@@ -109,6 +107,16 @@
           <div class="listerFoldable">
             <!-- here to be loded options -->
           </div>
+          <select class="sizeSelector">
+            <!-- <option value="A">ertA</option>
+            <option value="b">A</option>
+            <option value="45">df</option>
+            <option value="33">dd</option>
+            <option value="2">ss</option>
+            <option value="78">bb</option>
+            <option value="44">ggg</option>
+            <option value="5">ggf</option> -->
+          </select>
         </div>
         <div class="select sdodatki">
           <i></i>
@@ -141,6 +149,8 @@
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
+    <script src="lib/jquery.selectric.min.js"></script>
+
 
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
