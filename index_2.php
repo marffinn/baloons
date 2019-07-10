@@ -119,11 +119,15 @@
           <img src="assets/img/left-arrow.svg" alt="">
         </div>
 
-        Nazwa firmy:      <input type="text" name="Firma"><br>
-        Osoba kontaktowa: <input type="text" name="email" value="Imię i nazwisko"><br>
-        Telefon:          <input type="text" name="telefon" value="Telefon"><br>
-        E-Mail:           <input type="text" name="email" value="E-mail"><br>
-        Wiadomość:        <input type="text" name="email" value="" style="heigth:100px"><br>
+        <label for="firma">Nazwa firmy:</label><input type="text" onfocus="this.value=''" value="Nazwa firmy" name="firma">
+        <label for="email">Osoba kontaktowa:</label><input type="text" onfocus="this.value=''" name="email" value="Imię i nazwisko">
+        <label for="telefon">Telefon:</label><input type="text" onfocus="this.value=''" name="telefon" value="Telefon">
+        <label for="email">E-Mail:</label><input type="text" onfocus="this.value=''" name="email" value="E-mail">
+        <label for="firma">Wiadomość:</label>
+        <div class="mailBodyContainer">
+          <textarea class="mailBody"></textarea>
+        </div>
+
 
         <div class="sendMail">
           Wyślij

@@ -16,6 +16,30 @@ body {
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
+.mailBody {
+  width: 96%;
+  border: none;
+  padding: 2%;
+  height: 100%;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.mailBodyContainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.order label {
+  float: left;
+  width: 100%;
+  font-size: .8em;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+}
+
 .sendMail {
   width: 200px;
   height: 40px;
@@ -85,6 +109,8 @@ body {
   padding: 10px 0px;
   margin-bottom: 5px;
   text-indent: 10px;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc;
   pointer-events: all;
 }
 
@@ -241,11 +267,13 @@ button img {
 
 .orderOptions i {
   font-style: normal;
+  font-size: .8em;
 }
 
 .orderOptions b {
   float: right;
   font-weight: normal;
+  font-size: .8em;
 }
 
 .orderModelName {
