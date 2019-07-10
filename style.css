@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0px;
-
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -17,18 +16,93 @@ body {
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
+.sendMail {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background-color: #e8e8e8;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  font-size: 0.8em;
+  box-shadow: 0 0 0 1px #CCC;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pick {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.order {
+  width: 260px;
+  height: 100%;
+  display: none;
+  float: left;
+  margin: 0 10px;
+  padding: 20px 0px;
+}
+
+.order .backToconfig {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #e8e8e8;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ccc;
+  margin: 0 auto;
+}
+
+.order .backToconfig img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  left: 50%;
+  margin-left: -12.5px;
+  transform: scale(.6);
+}
+
+.order input {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 10;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+  text-indent: 10px;
+  pointer-events: all;
+}
+
 #foo {
-padding: .5em;
-margin: 0;
-float: left;
-margin-top: 10px;
+  padding: .5em;
+  margin: 0;
+  float: left;
+  margin-top: 10px;
 }
+
 button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
+
 button img {
-width: 20px;
+  width: 20px;
 }
+
 #modal {
   position: absolute;
   display: none;
@@ -60,6 +134,7 @@ button img {
   top: 12px;
   transform: rotate(45deg);
 }
+
 #modal p::before {
   content: '';
   top: 50%;
@@ -87,6 +162,7 @@ button img {
   margin-top: -5px;
   background-color: #333;
 }
+
 /* ================================= */
 #modalOrder {
   position: absolute;
@@ -120,6 +196,7 @@ button img {
   top: 12px;
   transform: rotate(45deg);
 }
+
 #modalOrder p::before {
   content: '';
   top: 50%;
@@ -149,32 +226,35 @@ button img {
 }
 
 .orderOptions {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 .orderOptions li {
   padding: .2em .5em;
 }
+
 .orderOptions li:nth-child(even) {
   background: gainsboro;
 }
+
 .orderOptions i {
   font-style: normal;
 }
+
 .orderOptions b {
-    float: right;
-    font-weight: normal;
-}
-.orderModelName {
-    /* padding: .2em .5em; */
-    /* margin: 0 .5em; */
-    border-bottom: 1px dashed #ccc;
+  float: right;
+  font-weight: normal;
 }
 
+.orderModelName {
+  /* padding: .2em .5em; */
+  /* margin: 0 .5em; */
+  border-bottom: 1px dashed #ccc;
+}
 
 /* ================================= */
-
 .button-wrapper {
   position: relative;
   width: 150px;
@@ -191,23 +271,22 @@ button img {
   cursor: pointer;
   color: #fff;
   padding: 10px 0;
-  text-transform:uppercase;
-  font-size:12px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 #upload {
-    display: inline-block;
-    /* position: absolute; */
-    z-index: 1;
-    width: 100%;
-    height: 30px;
-    top: 0;
-    left: 0;
-    /* opacity: 0; */
-    cursor: pointer;
-    /* visibility: hidden; */
+  display: inline-block;
+  /* position: absolute; */
+  z-index: 1;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  left: 0;
+  /* opacity: 0; */
+  cursor: pointer;
+  /* visibility: hidden; */
 }
-
 
 .fileList {
   width: auto;
@@ -218,6 +297,7 @@ button img {
   top: 50px;
   left: 20px;
 }
+
 .fileList p {
   width: 40px;
   height: auto;
@@ -228,21 +308,22 @@ button img {
   clear: both;
   /* margin-bottom: 0px; */
 }
+
 .fileList img {
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
 
 #picklist {
   width: 280px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   border-radius: 5px;
   background-color: white;
-  z-index: 999;
-  overflow: hidden;
+  z-index: 1;
+  /* overflow: hidden; */
 }
 
 .pickInfo {
@@ -311,8 +392,7 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px
-  solid #e5e5e5;
+  5: 1px solid #e5e5e5;
   margin-top: 0px;
   position: relative;
   /* margin-bottom: 10px; */
@@ -352,6 +432,7 @@ button img {
 .select {
   position: relative;
 }
+
 .select i {
   background-color: white;
   height: 20px;
@@ -396,13 +477,15 @@ button img {
   margin-top: -5px;
   background-color: #333;
 }
+
 .listerFoldable {
-    padding-bottom: 0.5em;
-    width: 100%;
-    height: auto;
-    display: block;
-    float: left;
+  padding-bottom: 0.5em;
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
 }
+
 .check {
   width: 1em;
   height: 1em;
@@ -1103,6 +1186,16 @@ button img {
   margin-bottom: 40px;
 }
 
+.inTxt {
+  position: absolute;
+  top: 80px;
+  width: 20%;
+  height: 40px;
+  display: block;
+  pointer-events: all;
+  float: left;
+}
+
 .img-holder {
   display: block;
   float: left;
@@ -1121,8 +1214,6 @@ button img {
   font-weight: bold;
   position: relative;
 }
-
-.img-holder p {}
 
 .img-holder:hover {
   background-color: #00aeef;

@@ -26,9 +26,7 @@
     <div id="modalOrder">
       <p></p>
       <h4 class="orderModelName"></h4>
-      <ul class="orderOptions">
-        <!--  CHOSEN OPTIONS ARE LOADED HERE  -->
-      </ul>
+      <ul class="orderOptions"></ul>
 
       <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
       <button class="btn" data-clipboard-target="#foo">
@@ -38,9 +36,7 @@
     </div>
 
     <div class='fileList'>
-      <div class='inFileList'>
-      <!-- LIST LOADED -->
-      </div>
+      <div class='inFileList'></div>
     </div>
 
     <div class="category_container">
@@ -75,7 +71,7 @@
     </div>
 
     <div id="picklist">
-
+      <div class="pick">
         <h2 class="product-name"></h2>
         <div class="select skolory">
           <i></i>
@@ -99,13 +95,11 @@
           </div>
         </div>
         <div class="select srozmiar">
-          <i></i>
+          <!-- <i></i> -->
           <h4> Rozmiar/Typ: </h4>
-
           <select class="sizeSelector">
             <!--  options to be loaded into this option list -->
           </select>
-
         </div>
         <div class="select sdodatki">
           <i></i>
@@ -119,16 +113,28 @@
           </div>
         </div>
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
+      </div>
+      <div class="order">
+        <div class="backToconfig">
+          <img src="assets/img/left-arrow.svg" alt="">
+        </div>
+
+        Nazwa firmy:      <input type="text" name="Firma"><br>
+        Osoba kontaktowa: <input type="text" name="email" value="Imię i nazwisko"><br>
+        Telefon:          <input type="text" name="telefon" value="Telefon"><br>
+        E-Mail:           <input type="text" name="email" value="E-mail"><br>
+        Wiadomość:        <input type="text" name="email" value="" style="heigth:100px"><br>
+
+        <div class="sendMail">
+          Wyślij
+        </div>
+
+      </div>
     </div>
 
     <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p></div>
-
-    <div class="info_container" state="off">
-        <img src="assets/img/info.svg">
-    </div>
-    <div class="fullscreen_container" state="off">
-        <img src="assets/img/fullscreen.svg">
-    </div>
+    <div class="info_container" state="off"><img src="assets/img/info.svg"></div>
+    <div class="fullscreen_container" state="off"><img src="assets/img/fullscreen.svg"></div>
 
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
@@ -139,6 +145,7 @@
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
     <script src="lib/jquery.selectric.min.js"></script>
+    <script src="lib/smtp.js"></script>
 
 
     <script src="lib/WebGL.js" type="text/javascript"></script>
