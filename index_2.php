@@ -120,17 +120,13 @@
         </div>
 
         <label for="firma">Nazwa firmy:</label><input type="text" onfocus="this.value=''" value="Nazwa firmy" name="firma">
-        <label for="email">Osoba kontaktowa:</label><input type="text" onfocus="this.value=''" name="email" value="Imię i nazwisko">
+        <label for="email">Osoba kontaktowa:</label><input class="xEmail" type="text" onfocus="this.value=''" name="email" value="Imię i nazwisko">
         <label for="telefon">Telefon:</label><input type="text" onfocus="this.value=''" name="telefon" value="Telefon">
-        <label for="email">E-Mail:</label><input type="text" onfocus="this.value=''" name="email" value="E-mail">
+        <label for="email">E-Mail:</label><input class="x_email" type="text" onfocus="this.value=''" name="email" value="E-mail">
         <label for="firma">Wiadomość:</label>
-        <div class="mailBodyContainer">
-          <textarea class="mailBody"></textarea>
-        </div>
+        <div class="mailBodyContainer"><textarea class="mailBody"></textarea></div>
 
-        <div class="sendMail">
-          Wyślij
-        </div>
+        <div class="sendMail">Wyślij</div>
 
       </div>
     </div>
