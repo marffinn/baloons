@@ -128,7 +128,6 @@
           <textarea class="mailBody"></textarea>
         </div>
 
-
         <div class="sendMail">
           Wyślij
         </div>
