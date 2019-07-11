@@ -119,12 +119,11 @@
           <img src="assets/img/left-arrow.svg" alt="">
         </div>
 
-        <label for="firma">Nazwa firmy:</label><input type="text" onfocus="this.value=''" value="Nazwa firmy" name="firma">
-        <label for="email">Osoba kontaktowa:</label><input class="xEmail" type="text" onfocus="this.value=''" name="email" value="Imię i nazwisko">
-        <label for="telefon">Telefon:</label><input type="text" onfocus="this.value=''" name="telefon" value="Telefon">
-        <label for="email">E-Mail:</label><input class="x_email" type="text" onfocus="this.value=''" name="email" value="E-mail">
-        <label for="firma">Wiadomość:</label>
-        <div class="mailBodyContainer"><textarea class="mailBody"></textarea></div>
+        <label for="firma">Nazwa firmy:</label><input type="text" class="xFirma" name="firma">
+        <label for="osoba">Osoba kontaktowa:</label><input class="xOsoba" type="text"  name="osoba">
+        <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
+        <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
+        <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
 
         <div class="sendMail">Wyślij</div>
 

@@ -15,7 +15,7 @@ body {
   margin: :0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
-.mailBody {
+.xMailBody {
   width: 96%;
   border: none;
   padding: 2%;
