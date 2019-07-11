@@ -3,16 +3,114 @@ body {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
 }
+
 .noflow {
   overflow: hidden;
 }
 
 #container {
   display: block;
-  z-index: 1;
+  z-index: 888;
   padding: 0;
   margin: :0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
+}
+.mailBody {
+  width: 96%;
+  border: none;
+  padding: 2%;
+  height: 100%;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.mailBodyContainer {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.order label {
+  float: left;
+  width: 100%;
+  font-size: .8em;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.sendMail {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background-color: #e8e8e8;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  font-size: 0.8em;
+  box-shadow: 0 0 0 1px #CCC;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pick {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.order {
+  width: 260px;
+  height: 100%;
+  display: none;
+  float: left;
+  margin: 0 10px;
+  padding: 20px 0px;
+}
+
+.order .backToconfig {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #e8e8e8;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ccc;
+  margin: 0 auto;
+}
+
+.order .backToconfig img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  left: 50%;
+  margin-left: -12.5px;
+  transform: scale(.6);
+}
+
+.order input {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 10;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  text-indent: 10px;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc;
+  pointer-events: all;
 }
 
 #foo {
@@ -57,7 +155,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 1;
+  z-index: 9999999;
   top: 12px;
   transform: rotate(45deg);
 }
@@ -119,7 +217,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 10;
+  z-index: 9999999;
   top: 12px;
   transform: rotate(45deg);
 }
@@ -168,11 +266,13 @@ button img {
 
 .orderOptions i {
   font-style: normal;
+  font-size: .8em;
 }
 
 .orderOptions b {
   float: right;
   font-weight: normal;
+  font-size: .8em;
 }
 
 .orderModelName {
@@ -204,15 +304,15 @@ button img {
 
 #upload {
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
-  /* width: 100%; */
-  /* height: 30px; */
+  width: 100%;
+  height: 30px;
   top: 0;
   left: 0;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .fileList {
@@ -244,12 +344,12 @@ button img {
 #picklist {
   width: 280px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   border-radius: 5px;
   background-color: white;
-  z-index: 20;
+  z-index: 1;
   /* overflow: hidden; */
 }
 
@@ -279,7 +379,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 30;
+  z-index: 9999999;
   top: 12px;
   transform: rotate(45deg);
 }
@@ -319,9 +419,11 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
+  5: 1px solid #e5e5e5;
   margin-top: 0px;
   position: relative;
   border-top: 1px dashed #ccc;
+  /* background-color: bisque; */
 }
 
 #picklist .sdodatki {
@@ -334,12 +436,10 @@ button img {
   display: block;
   background-color: #999;
   float: left;
-  /* margin: 2px; */
+  margin: 2px;
   position: relative;
   font-size: .8em;
-  /* border-radius: 2em; */
-  width: 100%;
-  text-transform: uppercase;
+  border-radius: 2em;
 }
 
 #picklist .select a:not(.clr) {
@@ -371,7 +471,7 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 30;
+  z-index: 9999999;
   top: 12px;
   /* transform: rotate(45deg); */
 }
@@ -410,9 +510,6 @@ button img {
   height: auto;
   display: block;
   float: left;
-  clear: both;
-  /* overflow: hidden; */
-  position: relative;
 }
 
 .check {
@@ -501,12 +598,13 @@ button img {
 
 .srozmiar .clr {
   clear: both;
+  width: auto !important;
   background-color: rgba(255, 255, 255, 0) !important;
-  line-height: 2em;
+  line-height: 1.5em;
   text-decoration: none;
   color: #333;
   text-indent: 2em;
-  height: 2em !important;
+  height: 1.5em !important;
   position: relative;
 }
 
@@ -646,7 +744,7 @@ button img {
   left: 20px;
   cursor: pointer;
   padding: 0;
-  z-index: 1;
+  z-index: 100000;
   display: block;
 }
 
@@ -1047,7 +1145,7 @@ button img {
   display: block;
   float: left;
   position: absolute;
-  z-index: 1;
+  z-index: 9999;
   background: yellow;
   height: 5px;
   width: 10px;
@@ -1114,6 +1212,15 @@ button img {
   margin-bottom: 40px;
 }
 
+.inTxt {
+  position: absolute;
+  top: 80px;
+  width: 20%;
+  height: 40px;
+  display: block;
+  pointer-events: all;
+  float: left;
+}
 .img-holder {
   display: block;
   float: left;
@@ -1132,9 +1239,6 @@ button img {
   font-weight: bold;
   position: relative;
 }
-
-.img-holder p {}
-
 .img-holder:hover {
   background-color: #00aeef;
 }
