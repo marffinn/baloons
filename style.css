@@ -57,6 +57,10 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+.sendMail:hover {
+  background-color: #00aeef;
+  color: white;
+}
 
 .pick {
   width: 100%;
@@ -85,6 +89,19 @@ body {
   box-shadow: 0 0 0 1px #ccc;
   margin: 0 auto;
 }
+.order .backToconfig:hover {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #00aeef;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ccc;
+  margin: 0 auto;
+  color:white;
+}
+
 
 .order .backToconfig img {
   width: 25px;
