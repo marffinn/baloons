@@ -15,7 +15,6 @@ body {
   margin: :0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
-
 .mailBody {
   width: 96%;
   border: none;
@@ -137,7 +136,7 @@ button img {
   min-height: 20px;
   padding: 20px 20px;
   background-color: white;
-  z-index: 999;
+  z-index: 1;
   top: 2em;
   border-radius: .3em;
   left: 50%;
@@ -423,7 +422,6 @@ button img {
   5: 1px solid #e5e5e5;
   margin-top: 0px;
   position: relative;
-  /* margin-bottom: 10px; */
   border-top: 1px dashed #ccc;
   /* background-color: bisque; */
 }
@@ -1223,7 +1221,6 @@ button img {
   pointer-events: all;
   float: left;
 }
-
 .img-holder {
   display: block;
   float: left;
@@ -1242,7 +1239,6 @@ button img {
   font-weight: bold;
   position: relative;
 }
-
 .img-holder:hover {
   background-color: #00aeef;
 }
