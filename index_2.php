@@ -23,7 +23,7 @@
       <input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
     </div>
 
-    <div id="modalOrder">
+    <!-- <div id="modalOrder">
       <p></p>
       <h4 class="orderModelName"></h4>
       <ul class="orderOptions"></ul>
@@ -32,7 +32,10 @@
       <button class="btn" data-clipboard-target="#foo">
           <img src="assets/img/clippy.svg" alt="Copy to clipboard">
       </button>
-
+    </div> -->
+    <div id="modalOrder" style="padding-bottom:0">
+      <p></p>
+      <h4 class="orderModelName" style="border-bottom: none"></h4>
     </div>
 
     <div class='fileList'>
