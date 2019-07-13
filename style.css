@@ -470,7 +470,7 @@ button img {
   position: relative;
   overflow: hidden;
   border-radius: 2em;
-  box-shadow: 0 0 0 1px #DDD;
+  box-shadow: 0 0 0 1px #333;
 }
 
 .select {
