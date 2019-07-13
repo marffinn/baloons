@@ -436,10 +436,11 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px solid #e5e5e5;
+  5: 1px
+  solid #e5e5e5;
   margin-top: 0px;
-  position: relative;
-  border-top: 1px dashed #ccc;
+  border-top: 1px dashed #DDD;
+  border-top: 1px dashed #D;
   /* background-color: bisque; */
 }
 
@@ -469,7 +470,7 @@ button img {
   position: relative;
   overflow: hidden;
   border-radius: 2em;
-  box-shadow: 0 0 0 1px #333;
+  box-shadow: 0 0 0 1px #DDD;
 }
 
 .select {
@@ -499,11 +500,11 @@ button img {
   position: absolute;
   margin: 0 auto;
   left: 50%;
-  color: black;
+  color: #DDD;
   width: 10px;
   margin-left: -5px;
   height: 2px;
-  background-color: #333;
+  background-color: #DDD;
   margin-top: -1px;
 }
 
@@ -513,12 +514,12 @@ button img {
   position: absolute;
   margin: 0 auto;
   left: 50%;
-  color: black;
+  color: #333;
   width: 2px;
   margin-left: -1px;
   height: 10px;
   margin-top: -5px;
-  background-color: #333;
+  background-color: #DDD;
 }
 
 .listerFoldable {
@@ -564,6 +565,8 @@ button img {
   margin: 5px 0;
   text-transform: uppercase;
   font-size: .8em;
+  color: #333;
+  cursor: pointer;
 }
 
 .select a {
@@ -610,7 +613,7 @@ button img {
   top: 50%;
   margin-top: -7.5px;
   border-radius: 1em;
-  box-shadow: 0 0 0 1px #333 inset;
+  box-shadow: 0 0 0 1px #DDD inset;
 }
 
 .srozmiar .clr {
@@ -659,7 +662,7 @@ button img {
   background-color: white;
   top: 50%;
   margin-top: -7.5px;
-  box-shadow: 0 0 0 1px #333;
+  box-shadow: 0 0 0 1px #DDD;
 }
 
 .sdodatki a {
@@ -671,15 +674,15 @@ button img {
   height: 30px;
   display: block;
   float: left;
-  background: #f1f1f1;
+  background: #F8F8F8;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
   text-decoration: none;
-  color: #000;
-  border-top: 1px solid #ccc;
+  color: #333;
+  border-top: 1px solid #DDD;
   padding: .8em 0em;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 0.8em;
 }
 
@@ -748,7 +751,7 @@ button img {
   color: black;
   padding: 0 20px;
   top: 0;
-  border-radius: 0px 5px 5px 0px;
+  /* border-radius: 0px 5px 5px 0px; */
   left: 27px;
   text-transform: uppercase;
 }
@@ -1007,7 +1010,7 @@ button img {
   height: 25px;
   left: 35%;
   background-color: #00aeef;
-  border-radius: 20px;
+  border-radius: -10px;
 }
 
 .rotateHolder img {
@@ -1170,12 +1173,12 @@ button img {
 
 .product-name {
   text-align: center;
-  color: white;
+  color: #333;
   font-weight: normal;
   padding: 10px 0;
   /* padding: 0; */
   font-size: 1em;
-  background-color: #00aeef;
+  background-color: #F8F8F8;
   /* font-weight: 600; */
   margin: 0;
 }
