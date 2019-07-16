@@ -585,6 +585,7 @@ button img {
   margin-top: -6px;
   border: 1px solid #333;
   border-radius: 10px;
+  transform: scale(.8);
 }
 
 .mark {

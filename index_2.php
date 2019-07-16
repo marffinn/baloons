@@ -23,16 +23,6 @@
       <input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
     </div>
 
-    <!-- <div id="modalOrder">
-      <p></p>
-      <h4 class="orderModelName"></h4>
-      <ul class="orderOptions"></ul>
-
-      <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
-      <button class="btn" data-clipboard-target="#foo">
-          <img src="assets/img/clippy.svg" alt="Copy to clipboard">
-      </button>
-    </div> -->
     <div id="modalOrder" style="padding-bottom:0">
       <p></p>
       <h4 class="orderModelName" style="border-bottom: none"></h4>
@@ -92,7 +82,7 @@
             <a href="#" target="_self" rel="pantone286c"  hex="#0033A0"> <p></p> </a>
             <a href="#" target="_self" rel="pantone420c"  hex="#C7C9C7"> <p></p> </a>
             <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
-            <a class="clr" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
+            <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
             <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
             <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
           </div>
