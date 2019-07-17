@@ -103,11 +103,11 @@
           <i></i>
           <h4> Dodatki: </h4>
           <div class="listerFoldable">
-            <a class="clr" href="#" target="_self"> Oświetlenie wewnątrz balonu</a>
-            <a class="clr" href="#" target="_self"> Materiał trudnopalny z cert. B1</a>
-            <a class="clr" href="#" target="_self"> Obciążniki piaskowe</a>
-            <a class="clr" href="#" target="_self"> Materiał trudnopalny</a>
-            <a class="clr" href="#" target="_self"> Włącznik zmierzchowy</a>
+            <a class="clr" href="#" target="_self">Oświetlenie wewnątrz balonu</a>
+            <a class="clr" href="#" target="_self">Materiał trudnopalny z cert. B1</a>
+            <a class="clr" href="#" target="_self">Obciążniki piaskowe</a>
+            <a class="clr" href="#" target="_self">Materiał trudnopalny</a>
+            <a class="clr" href="#" target="_self">Włącznik zmierzchowy</a>
           </div>
         </div>
         <a href="#" name="summary" class="placeOrder">Zamawiam</a>
