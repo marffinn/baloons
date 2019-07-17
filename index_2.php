@@ -41,27 +41,32 @@
         <img src="assets/img/3d.svg">
     </div>
 
-    <div class="rotateHolder">
-      <div class="rotateLeft">
-        <img src="assets/img/rotating-circular-arrow.svg">
-        <p>obracaj w lewo</p>
+
+
+    <div class="steering">
+      <div class="rotateHolder">
+        <div class="rotateLeft">
+          <img src="assets/img/vr.svg">
+          <p>obracaj w lewo</p>
+        </div>
+        <div class="rotateRight">
+          <img style="transform: scaleX(1);" src="assets/img/vr.svg">
+          <p>obracaj w prawo</p>
+        </div>
       </div>
-      <div class="rotateRight">
-        <img src="assets/img/rotating-circular-arrow.svg">
-        <p>obracaj w prawo</p>
+
+      <div class="zoomInOut">
+        <div class="zoomIn">
+          <img src="assets\img\zoomIn.svg">
+          <p>przybliż</p>
+        </div>
+        <div class="zoomOut">
+          <img src="assets\img\zoomOut.svg">
+          <p>oddal</p>
+        </div>
       </div>
     </div>
 
-    <div class="zoomInOut">
-      <div class="zoomIn">
-        <img src="assets\img\zoomIn.svg">
-        <p>przybliż</p>
-      </div>
-      <div class="zoomOut">
-        <img src="assets\img\zoomOut.svg">
-        <p>oddal</p>
-      </div>
-    </div>
 
     <div id="picklist">
       <div class="pick">
@@ -111,6 +116,9 @@
         <div class="backToconfig">
           <img src="assets/img/left-arrow.svg" alt="">
         </div>
+        <div class="formOrder">
+          Formularz zamówienia
+        </div>
 
         <label for="firma">Nazwa firmy:</label><input type="text" class="xFirma" name="firma">
         <label for="osoba">Osoba kontaktowa:</label><input class="xOsoba" type="text"  name="osoba">
@@ -118,7 +126,11 @@
         <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
         <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
 
-        <div class="sendMail">Wyślij</div>
+        <div class="sendMail sendDisable">Wyślij</div>
+
+        <div class="sagree">
+          <p><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
+        </div>
 
       </div>
     </div>

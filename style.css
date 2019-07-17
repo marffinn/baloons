@@ -15,6 +15,73 @@ body {
   margin: :0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
+
+.formOrder {
+    width: 100%;
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.steering {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  background: white;
+  padding: .2em;
+  /* border-radius: 3px; */
+}
+
+.sagree {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+.sagree p {
+  width: 100%;
+  height: auto;
+  font-size: .8em;
+  float: left;
+  display: block;
+}
+
+
+.sagree i {
+  width: 15px;
+  height: 15px;
+  font-size: .8em;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  box-shadow: 0 0 0 1px #ccc;
+  position: relative;
+  cursor: pointer;
+}
+.sagree b {
+  width: 5px;
+  height: 5px;
+  font-size: .8em;
+  display: none;
+  float: left;
+  margin-right: 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5px;
+  left: 50%;
+  margin-left: -2.5px;
+  cursor: pointer;
+}
 .xMailBody {
   width: 96%;
   border: none;
@@ -24,10 +91,10 @@ body {
 }
 
 .mailBodyContainer {
-    display: block;
-    float: left;
-    width: 100%;
-    height: 100px;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 100px;
 }
 
 .order label {
@@ -57,9 +124,13 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .sendMail:hover {
   background-color: #00aeef;
   color: white;
+}
+.sendDisable {
+  pointer-events: none;
 }
 
 .pick {
@@ -88,7 +159,9 @@ body {
   cursor: pointer;
   box-shadow: 0 0 0 1px #ccc;
   margin: 0 auto;
+  transform: scale(.8);
 }
+
 .order .backToconfig:hover {
   position: relative;
   width: 40px;
@@ -99,9 +172,8 @@ body {
   cursor: pointer;
   box-shadow: 0 0 0 1px #ccc;
   margin: 0 auto;
-  color:white;
+  color: white;
 }
-
 
 .order .backToconfig img {
   width: 25px;
@@ -205,7 +277,6 @@ button img {
   background-color: #333;
 }
 
-/* ================================= */
 #modalOrder {
   position: absolute;
   display: none;
@@ -293,12 +364,9 @@ button img {
 }
 
 .orderModelName {
-  /* padding: .2em .5em; */
-  /* margin: 0 .5em; */
   border-bottom: 1px dashed #ccc;
 }
 
-/* ================================= */
 .button-wrapper {
   position: relative;
   width: 150px;
@@ -321,15 +389,12 @@ button img {
 
 #upload {
   display: inline-block;
-  /* position: absolute; */
   z-index: 1;
   width: 100%;
   height: 30px;
   top: 0;
   left: 0;
-  /* opacity: 0; */
   cursor: pointer;
-  /* visibility: hidden; */
 }
 
 .fileList {
@@ -350,7 +415,6 @@ button img {
   margin: 0;
   padding: 0;
   clear: both;
-  /* margin-bottom: 0px; */
 }
 
 .fileList img {
@@ -367,7 +431,6 @@ button img {
   border-radius: 5px;
   background-color: white;
   z-index: 1;
-  /* overflow: hidden; */
 }
 
 .pickInfo {
@@ -436,12 +499,10 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px
-  solid #e5e5e5;
+  5: 1px solid #e5e5e5;
   margin-top: 0px;
   border-top: 1px dashed #DDD;
   border-top: 1px dashed #D;
-  /* background-color: bisque; */
 }
 
 #picklist .sdodatki {
@@ -489,9 +550,8 @@ button img {
   right: 2px;
   cursor: pointer;
   margin-top: -11px;
-  z-index: 9999999;
+  z-index: 1;
   top: 12px;
-  /* transform: rotate(45deg); */
 }
 
 .select i::before {
@@ -683,7 +743,6 @@ button img {
   color: #333;
   border-top: 1px solid #DDD;
   padding: .8em 0em;
-  /* font-weight: bold; */
   font-size: 0.8em;
 }
 
@@ -752,7 +811,6 @@ button img {
   color: black;
   padding: 0 20px;
   top: 0;
-  /* border-radius: 0px 5px 5px 0px; */
   left: 27px;
   text-transform: uppercase;
 }
@@ -787,15 +845,11 @@ button img {
 
 /* ------------------------------------------------- */
 .zoomInOut {
-  bottom: 35px;
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: block;
   width: auto;
   height: 25px;
-  left: 60%;
-  background-color: #00aeef;
-  padding: 5px 12px;
-  border-radius: 20px;
+  float: left;
 }
 
 .zoomInOut img {
@@ -1003,15 +1057,17 @@ button img {
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
 .rotateHolder {
-  bottom: 35px;
-  position: absolute;
-  padding: 5px 12px;
-  display: flex;
+  /* bottom: 35px; */
+  position: relative;
+  /* padding: 5px 12px; */
+  display: block;
   width: auto;
   height: 25px;
-  left: 35%;
-  background-color: #00aeef;
+  /* left: 35%; */
+  float: left;
+  /* background-color: #00aeef; */
   border-radius: -10px;
+  margin-right: 10px;
 }
 
 .rotateHolder img {
@@ -1019,6 +1075,8 @@ button img {
   float: left;
   display: block;
   position: relative;
+  /* margin: 5px; */
+  transform: scaleX(-1);
 }
 
 .rotateLeft {
@@ -1242,6 +1300,7 @@ button img {
   pointer-events: all;
   float: left;
 }
+
 .img-holder {
   display: block;
   float: left;
@@ -1260,6 +1319,7 @@ button img {
   font-weight: bold;
   position: relative;
 }
+
 .img-holder:hover {
   background-color: #00aeef;
 }
