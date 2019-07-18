@@ -125,12 +125,11 @@
         <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
         <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
         <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
-
-        <div class="sendMail sendDisable">Wyślij</div>
-
+        
         <div class="sagree">
           <p><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
         </div>
+        <div class="sendMail sendDisable">Wyślij</div>
 
       </div>
     </div>
