@@ -34,8 +34,8 @@ body {
   left: 50%;
   bottom: 20px;
   background: white;
-  padding: .2em 1em;
-  border-radius: 25px;
+  padding: .2em;
+  /* border-radius: 3px; */
 }
 
 .sagree {
@@ -438,7 +438,7 @@ button img {
   padding: 1em 1.3em;
   background-color: white;
   position: absolute;
-  display: none;
+  display: block;
   height: auto;
   bottom: 20px;
   width: 200px;
