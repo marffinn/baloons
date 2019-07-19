@@ -34,8 +34,8 @@ body {
   left: 50%;
   bottom: 20px;
   background: white;
-  padding: .2em;
-  /* border-radius: 3px; */
+  padding: 0em .5em;
+  border-radius: 3px;
 }
 
 .sagree {
