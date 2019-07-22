@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link href="selectric.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
 
@@ -95,10 +94,16 @@
         <div class="select srozmiar">
           <!-- <i></i> -->
           <h4> Rozmiar/Typ: </h4>
-          <select class="sizeSelector">
-            <!--  options to be loaded into this option list -->
-          </select>
+
+          <div class="sizeSelector2">
+            <select name="selector">
+              <!--  -->
+            </select>
+          </div>
         </div>
+
+
+
         <div class="select sdodatki">
           <i></i>
           <h4> Dodatki: </h4>
@@ -125,7 +130,7 @@
         <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
         <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
         <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
-        
+
         <div class="sagree">
           <p><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
         </div>
@@ -146,7 +151,6 @@
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
-    <script src="lib/jquery.selectric.min.js"></script>
     <script src="lib/smtp.js"></script>
 
 

@@ -4,6 +4,82 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* ======================================================================== */
+.sizeSelector2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 1em;
+}
+.topWrapper{
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    height: 2em;
+    overflow: hidden;
+    z-index: 10;
+}
+.sizeSelector2 ul li{
+  background-color: #f2f2f2;
+  cursor: pointer;
+  height: 2em;
+  line-height: 2em;
+  display: block;
+  margin: 0;
+  font-size: .8em;
+  text-indent: 1em;
+  text-transform: uppercase;
+}
+.sizeSelector2 ul li:hover{
+  background-color: #ccc;
+}
+.onClick {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: auto;
+  overflow: visible;
+  box-shadow: 0 2.5px 5px 1px #ccc;
+}
+.clickOverlay {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 2em;
+  z-index: 20;
+}
+.clickOverlay::before {
+  content: '▾';
+  color: white;
+  position: absolute;
+  display: block;
+  z-index: 30;
+  height: 100%;
+  right: .5em;
+  /* top: 0px; */
+}
+.selected {
+  background-color: #00aeef !important;
+  color: white;
+}
+
+
+/* ======================================================================== */
+
 .noflow {
   overflow: hidden;
 }
