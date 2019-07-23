@@ -1,9 +1,85 @@
 body {
   padding: 0;
   margin: 0px;
-
   font-family: 'Open Sans', sans-serif;
 }
+
+/* ======================================================================== */
+.sizeSelector2 {
+    width: 100%;
+    height: 2em;
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 1em;
+    line-height: 2em;
+}
+.topWrapper{
+    list-style-type: none;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    height: 2em;
+    overflow: hidden;
+    z-index: 10;
+}
+.sizeSelector2 ul li{
+  background-color: #f2f2f2;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  margin: 0;
+  font-size: .8em;
+  text-indent: 1em;
+  text-transform: uppercase;
+}
+.sizeSelector2 ul li:hover{
+  background-color: #ccc;
+}
+.onClick {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: auto;
+  overflow: visible;
+  box-shadow: 0 2.5px 5px 1px #ccc;
+}
+.clickOverlay {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  /* height: 2em; */
+  z-index: 20;
+}
+.clickOverlay::before {
+  content: '▾';
+  color: white;
+  position: absolute;
+  display: block;
+  z-index: 30;
+  height: 100%;
+  right: .5em;
+  /* top: 0px; */
+}
+.selected {
+  background-color: #00aeef !important;
+  color: white;
+}
+
+
+/* ======================================================================== */
 
 .noflow {
   overflow: hidden;
@@ -17,6 +93,207 @@ body {
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
+.formOrder {
+    width: 100%;
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.steering {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  background: white;
+  padding: 0em .5em;
+  border-radius: 3px;
+}
+
+.sagree {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-top: 1em;
+  text-decoration: none;
+}
+
+.sagree p {
+  width: 100%;
+  height: auto;
+  font-size: .8em;
+  float: left;
+  display: block;
+}
+
+
+.sagree i {
+  width: 15px;
+  height: 15px;
+  font-size: .8em;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  box-shadow: 0 0 0 1px #ccc;
+  position: relative;
+  cursor: pointer;
+}
+.sagree b {
+  width: 5px;
+  height: 5px;
+  font-size: .8em;
+  display: none;
+  float: left;
+  margin-right: 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5px;
+  left: 50%;
+  margin-left: -2.5px;
+  cursor: pointer;
+}
+.xMailBody {
+  width: 96%;
+  border: none;
+  padding: 2%;
+  height: 100%;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.mailBodyContainer {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 100px;
+}
+
+.order label {
+  float: left;
+  width: 100%;
+  font-size: .8em;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.sendMail {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background-color: #e8e8e8;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  font-size: 0.8em;
+  box-shadow: 0 0 0 1px #CCC;
+  text-align: center;
+  line-height: 40px;
+  /* margin-top: 20px; */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sendMail:hover {
+  background-color: #00aeef;
+  color: white;
+}
+.sendDisable {
+  pointer-events: none;
+}
+
+.pick {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.order {
+  width: 260px;
+  height: 100%;
+  display: none;
+  float: left;
+  margin: 0 10px;
+  padding: 20px 0px;
+}
+
+.order .backToconfig {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #e8e8e8;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ccc;
+  margin: 0 auto;
+  transform: scale(.8);
+}
+
+.order .backToconfig:hover {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #00aeef;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ccc;
+  margin: 0 auto;
+  color: white;
+}
+
+.order .backToconfig img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  left: 50%;
+  margin-left: -12.5px;
+  transform: scale(.6);
+}
+
+.order input {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 10;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  text-indent: 10px;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc;
+  pointer-events: all;
+}
+
+#foo {
+  padding: .5em;
+  margin: 0;
+  float: left;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+button img {
+  width: 20px;
+}
+
 #modal {
   position: absolute;
   display: none;
@@ -25,12 +302,13 @@ body {
   min-height: 20px;
   padding: 20px 20px;
   background-color: white;
-  z-index: 999;
+  z-index: 1;
   top: 2em;
   border-radius: .3em;
   left: 50%;
   margin-left: -110px;
 }
+
 #modal p {
   background-color: white;
   height: 20px;
@@ -47,6 +325,7 @@ body {
   top: 12px;
   transform: rotate(45deg);
 }
+
 #modal p::before {
   content: '';
   top: 50%;
@@ -75,16 +354,160 @@ body {
   background-color: #333;
 }
 
+#modalOrder {
+  position: absolute;
+  display: none;
+  width: 400px;
+  height: auto;
+  min-height: 20px;
+  padding: 0 1em;
+  background-color: white;
+  z-index: 999;
+  top: 2em;
+  border-radius: .3em;
+  left: 50%;
+  padding-bottom: 1em;
+  margin-left: -210px;
+}
+
+#modalOrder p {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  padding: 0;
+  border-radius: 20px;
+  margin: 0;
+  right: 2px;
+  cursor: pointer;
+  margin-top: -11px;
+  z-index: 9999999;
+  top: 12px;
+  transform: rotate(45deg);
+}
+
+#modalOrder p::before {
+  content: '';
+  top: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  color: black;
+  width: 10px;
+  margin-left: -5px;
+  height: 2px;
+  background-color: #333;
+  margin-top: -1px;
+}
+
+#modalOrder p::after {
+  content: '';
+  top: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  color: black;
+  width: 2px;
+  margin-left: -1px;
+  height: 10px;
+  margin-top: -5px;
+  background-color: #333;
+}
+
+.orderOptions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.orderOptions li {
+  padding: .2em .5em;
+}
+
+.orderOptions li:nth-child(even) {
+  background: gainsboro;
+}
+
+.orderOptions i {
+  font-style: normal;
+  font-size: .8em;
+}
+
+.orderOptions b {
+  float: right;
+  font-weight: normal;
+  font-size: .8em;
+}
+
+.orderModelName {
+  border-bottom: 1px dashed #ccc;
+}
+
+.button-wrapper {
+  position: relative;
+  width: 150px;
+  text-align: center;
+  margin: .5em auto;
+}
+
+.button-wrapper span.label {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  width: 100%;
+  background: #00bfff;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#upload {
+  display: inline-block;
+  z-index: 1;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.fileList {
+  width: auto;
+  height: auto;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+.fileList p {
+  width: 40px;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.fileList img {
+  width: 100%;
+  object-fit: cover;
+}
+
 #picklist {
   width: 280px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   border-radius: 5px;
   background-color: white;
-  z-index: 999;
-  overflow: hidden;
+  z-index: 1;
 }
 
 .pickInfo {
@@ -116,7 +539,6 @@ body {
   z-index: 9999999;
   top: 12px;
   transform: rotate(45deg);
-  /* box-shadow: 0 0 0 1px #d6d6d6; */
 }
 
 .pickInfo p::before {
@@ -156,9 +578,8 @@ body {
   padding: 0 5%;
   5: 1px solid #e5e5e5;
   margin-top: 0px;
-  position: relative;
-  margin-bottom: 10px;
-  border-top: 1px solid #ccc;
+  border-top: 1px dashed #DDD;
+  border-top: 1px dashed #D;
 }
 
 #picklist .sdodatki {
@@ -192,6 +613,58 @@ body {
 
 .select {
   position: relative;
+}
+
+.select i {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  padding: 0;
+  border-radius: 20px;
+  margin: 0;
+  right: 2px;
+  cursor: pointer;
+  margin-top: -11px;
+  z-index: 1;
+  top: 12px;
+}
+
+.select i::before {
+  content: '';
+  top: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  color: #DDD;
+  width: 10px;
+  margin-left: -5px;
+  height: 2px;
+  background-color: #DDD;
+  margin-top: -1px;
+}
+
+.select i::after {
+  content: '';
+  top: 50%;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  color: #333;
+  width: 2px;
+  margin-left: -1px;
+  height: 10px;
+  margin-top: -5px;
+  background-color: #DDD;
+}
+
+.listerFoldable {
+  padding-bottom: 0.5em;
+  width: 100%;
+  height: auto;
+  display: block;
+  float: left;
 }
 
 .check {
@@ -229,7 +702,8 @@ body {
   margin: 5px 0;
   text-transform: uppercase;
   font-size: .8em;
-  text-align: center;
+  color: #333;
+  cursor: pointer;
 }
 
 .select a {
@@ -248,6 +722,7 @@ body {
   margin-top: -6px;
   border: 1px solid #333;
   border-radius: 10px;
+  transform: scale(.8);
 }
 
 .mark {
@@ -276,7 +751,7 @@ body {
   top: 50%;
   margin-top: -7.5px;
   border-radius: 1em;
-  box-shadow: 0 0 0 1px #333 inset;
+  box-shadow: 0 0 0 1px #DDD inset;
 }
 
 .srozmiar .clr {
@@ -325,7 +800,7 @@ body {
   background-color: white;
   top: 50%;
   margin-top: -7.5px;
-  box-shadow: 0 0 0 1px #333;
+  box-shadow: 0 0 0 1px #DDD;
 }
 
 .sdodatki a {
@@ -337,14 +812,14 @@ body {
   height: 30px;
   display: block;
   float: left;
-  background: #f1f1f1;
+  background: #F8F8F8;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
   text-decoration: none;
-  color: #000;
-  border-top: 1px solid #ccc;
-  margin-top: 0px;
+  color: #333;
+  border-top: 1px solid #DDD;
+  padding: .8em 0em;
   font-size: 0.8em;
 }
 
@@ -413,7 +888,6 @@ body {
   color: black;
   padding: 0 20px;
   top: 0;
-  border-radius: 0px 5px 5px 0px;
   left: 27px;
   text-transform: uppercase;
 }
@@ -448,15 +922,11 @@ body {
 
 /* ------------------------------------------------- */
 .zoomInOut {
-  bottom: 35px;
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: block;
   width: auto;
   height: 25px;
-  left: 60%;
-  background-color: #00aeef;
-  padding: 5px 12px;
-  border-radius: 20px;
+  float: left;
 }
 
 .zoomInOut img {
@@ -464,6 +934,7 @@ body {
   float: left;
   display: block;
   position: relative;
+  transform: scale(.8);
 }
 
 .zoomIn {
@@ -664,15 +1135,17 @@ body {
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
 .rotateHolder {
-  bottom: 35px;
-  position: absolute;
-  padding: 5px 12px;
-  display: flex;
+  /* bottom: 35px; */
+  position: relative;
+  /* padding: 5px 12px; */
+  display: block;
   width: auto;
   height: 25px;
-  left: 35%;
-  background-color: #00aeef;
-  border-radius: 20px;
+  /* left: 35%; */
+  float: left;
+  /* background-color: #00aeef; */
+  border-radius: -10px;
+  margin-right: 10px;
 }
 
 .rotateHolder img {
@@ -680,6 +1153,8 @@ body {
   float: left;
   display: block;
   position: relative;
+  /* margin: 5px; */
+  transform: scaleX(-1);
 }
 
 .rotateLeft {
@@ -837,10 +1312,12 @@ body {
   text-align: center;
   color: #333;
   font-weight: normal;
-  margin: 10px 0;
-  padding: 0;
+  padding: 10px 0;
+  /* padding: 0; */
   font-size: 1em;
-  font-weight: 600;
+  background-color: #F8F8F8;
+  /* font-weight: 600; */
+  margin: 0;
 }
 
 .button_container {
@@ -892,6 +1369,16 @@ body {
   margin-bottom: 40px;
 }
 
+.inTxt {
+  position: absolute;
+  top: 80px;
+  width: 20%;
+  height: 40px;
+  display: block;
+  pointer-events: all;
+  float: left;
+}
+
 .img-holder {
   display: block;
   float: left;
@@ -910,8 +1397,6 @@ body {
   font-weight: bold;
   position: relative;
 }
-
-.img-holder p {}
 
 .img-holder:hover {
   background-color: #00aeef;
