@@ -96,9 +96,7 @@
           <h4> Rozmiar/Typ: </h4>
 
           <div class="sizeSelector2">
-            <select name="selector">
-              <!--  -->
-            </select>
+            <!-- here are options to be loaded -->
           </div>
         </div>
 
