@@ -22,7 +22,7 @@
                 <p>Balon</p>
 
             </div>
-            <div class="img-holder" model-data='brama'>
+            <div class="img-holder" model-data='prostok4x3'>
                 <img src="assets/img/Tent-Grupa_brama.svg" />
                 <p>Brama</p>
             </div>
@@ -30,7 +30,7 @@
               <img src="assets/img/Tent-Grupa_chwiej.svg" />
               <p>Chwiej</p>
             </div>
-            <div class="img-holder" model-data='flagi'>
+            <div class="img-holder" model-data='batfanbeach_90x195'>
                 <img src="assets/img/Tent-Grupa_flagi.svg" />
                 <p>Flaga</p>
             </div>
@@ -53,6 +53,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>

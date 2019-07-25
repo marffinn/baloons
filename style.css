@@ -6,27 +6,56 @@ body {
 
 /* ======================================================================== */
 .sizeSelector2 {
-    width: 100%;
-    height: 2em;
-    display: block;
-    float: left;
-    position: relative;
-    margin-bottom: 1em;
-    line-height: 2em;
+  width: 100%;
+  height: 32px;
+  display: block;
+  float: left;
+  position: relative;
+  margin-bottom: 1em;
+  line-height: 32px;
 }
-.topWrapper{
-    list-style-type: none;
-    width: 100%;
-    display: block;
-    float: left;
-    margin: 0;
-    position: relative;
-    padding: 0;
-    height: 2em;
-    overflow: hidden;
-    z-index: 10;
+
+.ssActive {
+  background-color: #00aeef !important;
+  color: white;
 }
-.sizeSelector2 ul li{
+
+.ssClickOverlay {
+  height: 32px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 40;
+  cursor: pointer;
+}
+
+.ssClickOverlay::before {
+  content: '▾';
+  position: absolute;
+  display: block;
+  z-index: 30;
+  height: 100%;
+  right: .5em;
+}
+
+.topWrapper {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 0 0px 1px #444;
+}
+
+.sizeSelector2 ul li {
   background-color: #f2f2f2;
   cursor: pointer;
   height: 32px;
@@ -34,12 +63,16 @@ body {
   display: block;
   margin: 0;
   font-size: .8em;
+  clear: both;
   text-indent: 1em;
   text-transform: uppercase;
+  position: relative;
 }
-.sizeSelector2 ul li:hover{
+
+.sizeSelector2 ul li:hover {
   background-color: #ccc;
 }
+
 .onClick {
   list-style-type: none;
   width: 100%;
@@ -50,8 +83,8 @@ body {
   padding: 0;
   height: auto;
   overflow: visible;
-  box-shadow: 0 2.5px 5px 1px #ccc;
 }
+
 .clickOverlay {
   list-style-type: none;
   width: 100%;
@@ -60,27 +93,16 @@ body {
   margin: 0;
   position: relative;
   padding: 0;
-  /* height: 2em; */
+  height: 32px;
   z-index: 20;
 }
-.clickOverlay::before {
-  content: '▾';
-  color: white;
-  position: absolute;
-  display: block;
-  z-index: 30;
-  height: 100%;
-  right: .5em;
-  /* top: 0px; */
-}
+
 .selected {
   background-color: #00aeef !important;
   color: white;
 }
 
-
 /* ======================================================================== */
-
 .noflow {
   overflow: hidden;
 }
@@ -94,13 +116,13 @@ body {
 }
 
 .formOrder {
-    width: 100%;
-    float: left;
-    display: block;
-    height: 30px;
-    line-height: 30px;
-    font-size: 1em;
-    text-align: center;
+  width: 100%;
+  float: left;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1em;
+  text-align: center;
 }
 
 .steering {
@@ -132,7 +154,6 @@ body {
   display: block;
 }
 
-
 .sagree i {
   width: 15px;
   height: 15px;
@@ -144,6 +165,7 @@ body {
   position: relative;
   cursor: pointer;
 }
+
 .sagree b {
   width: 5px;
   height: 5px;
@@ -159,6 +181,7 @@ body {
   margin-left: -2.5px;
   cursor: pointer;
 }
+
 .xMailBody {
   width: 96%;
   border: none;
@@ -206,6 +229,7 @@ body {
   background-color: #00aeef;
   color: white;
 }
+
 .sendDisable {
   pointer-events: none;
 }
