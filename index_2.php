@@ -92,10 +92,14 @@
           </div>
         </div>
         <div class="select srozmiar">
-          <!-- <i></i> -->
           <h4> Rozmiar/Typ: </h4>
-
           <div class="sizeSelector2">
+            <!-- here are options to be loaded -->
+          </div>
+        </div>
+        <div class="select swymiar">
+          <h4> Wymiary: </h4>
+          <div class="sizeSelector3">
             <!-- here are options to be loaded -->
           </div>
         </div>

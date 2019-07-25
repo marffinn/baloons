@@ -103,6 +103,83 @@ body {
 }
 
 /* ======================================================================== */
+/* ======================================================================== */
+.sizeSelector3 {
+  width: 100%;
+  height: 32px;
+  display: block;
+  float: left;
+  position: relative;
+  margin-bottom: 1em;
+  line-height: 32px;
+}
+.ssClickOverlay3 {
+  height: 32px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 40;
+  cursor: pointer;
+}
+.ssClickOverlay3::before {
+  content: '▾';
+  position: absolute;
+  display: block;
+  z-index: 30;
+  height: 100%;
+  right: .5em;
+}
+.topWrapper3 {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 0 0px 1px #444;
+}
+.sizeSelector3 ul li {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  margin: 0;
+  font-size: .8em;
+  clear: both;
+  text-indent: 1em;
+  text-transform: uppercase;
+  position: relative;
+}
+.sizeSelector3 ul li:hover {
+  background-color: #ccc;
+}
+.clickOverlay3 {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  z-index: 20;
+}
+/* ======================================================================== */
+
+
+
+
+
+
+
 .noflow {
   overflow: hidden;
 }
