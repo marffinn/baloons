@@ -111,7 +111,7 @@ body {
   display: block;
   z-index: 888;
   padding: 0;
-  margin: :0;
+  margin: 0;
   background: radial-gradient(circle, hsl(180, 25%, 70%) 30%, hsl(180, 35%, 40%) 100%);
 }
 
@@ -600,10 +600,8 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px solid #e5e5e5;
   margin-top: 0px;
   border-top: 1px dashed #DDD;
-  border-top: 1px dashed #D;
 }
 
 #picklist .sdodatki {
@@ -838,7 +836,6 @@ button img {
   float: left;
   background: #F8F8F8;
   text-align: center;
-  vertical-align: middle;
   line-height: 30px;
   text-decoration: none;
   color: #333;
