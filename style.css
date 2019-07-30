@@ -4,6 +4,105 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.scaleSelector2 {
+  width: 100%;
+  height: 32px;
+  display: block;
+  float: left;
+  position: relative;
+  margin-bottom: 1em;
+  line-height: 32px;
+}
+
+.ssActive-scale {
+  background-color: #00aeef !important;
+  color: white;
+}
+
+.ssClickOverlay-scale {
+  height: 32px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 40;
+  cursor: pointer;
+}
+
+.ssClickOverlay-scale::before {
+  content: '▾';
+  position: absolute;
+  display: block;
+  z-index: 30;
+  height: 100%;
+  right: .5em;
+}
+
+.topWrapper-scale {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 0 0px 1px #444;
+}
+
+.scaleSelector2 ul li {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  margin: 0;
+  font-size: .8em;
+  clear: both;
+  text-indent: 1em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.scaleSelector2 ul li:hover {
+  background-color: #ccc;
+}
+
+.onClick-scale {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: auto;
+  overflow: visible;
+}
+
+.clickOverlay-scale {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  z-index: 20;
+}
+
+.selected {
+  background-color: #00aeef !important;
+  color: white;
+}
+
+/* ======================================================================== */
+
 /* ======================================================================== */
 .sizeSelector2 {
   width: 100%;
@@ -94,7 +193,7 @@ body {
   position: relative;
   padding: 0;
   height: 32px;
-  z-index: 20;
+  z-index: 40;
 }
 
 .selected {
