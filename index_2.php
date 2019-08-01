@@ -88,18 +88,18 @@
             <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
             <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
             <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
-            <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
+            <a class="clr dnp" href="#" target="_self"> Druk na pasie <b></b> </a>
           </div>
         </div>
         <div class="select srozmiar">
-          <!-- <i></i> -->
           <h4> Rozmiar/Typ: </h4>
-
           <div class="sizeSelector2">
             <!-- here are options to be loaded -->
           </div>
-
-          <div class="scaleSelector2">
+        </div>
+        <div class="select swymiar" style="border:none">
+          <h4> Wymiary: </h4>
+          <div class="sizeSelector3">
             <!-- here are options to be loaded -->
           </div>
         </div>
@@ -149,10 +149,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
     <script src="lib/smtp.js"></script>
+
 
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
