@@ -4,6 +4,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.dnp b {
+width: 20px;
+height: 20px;
+display: block;
+float: right;
+background-color: aquamarine;
+border-radius: 2px;
+margin-left: 2em;
+}
+
 /* ======================================================================== */
 .sizeSelector2 {
   width: 100%;
@@ -11,7 +21,6 @@ body {
   display: block;
   float: left;
   position: relative;
-  /* margin-bottom: 1em; */
   line-height: 32px;
 }
 
