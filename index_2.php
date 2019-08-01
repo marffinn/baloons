@@ -97,7 +97,7 @@
             <!-- here are options to be loaded -->
           </div>
         </div>
-        <div class="select swymiar">
+        <div class="select swymiar" style="border:none">
           <h4> Wymiary: </h4>
           <div class="sizeSelector3">
             <!-- here are options to be loaded -->

@@ -11,7 +11,7 @@ body {
   display: block;
   float: left;
   position: relative;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   line-height: 32px;
 }
 
@@ -74,15 +74,8 @@ body {
 }
 
 .onClick {
-  list-style-type: none;
-  width: 100%;
-  display: block;
-  float: left;
-  margin: 0;
-  position: relative;
-  padding: 0;
-  height: auto;
-  overflow: visible;
+  height: auto !important;
+  overflow: visible !important;
 }
 
 .clickOverlay {
@@ -94,7 +87,7 @@ body {
   position: relative;
   padding: 0;
   height: 32px;
-  z-index: 20;
+  z-index: 21;
 }
 
 .selected {
@@ -677,7 +670,8 @@ button img {
   clear: both;
   float: left;
   padding: 0 5%;
-  5: 1px solid #e5e5e5;
+  5: 1px
+  solid #e5e5e5;
   margin-top: 0px;
   border-top: 1px dashed #DDD;
   border-top: 1px dashed #D;
