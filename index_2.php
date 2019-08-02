@@ -88,7 +88,8 @@
             <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
             <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
             <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
-            <a class="clr dnp" href="#" target="_self"> Druk na pasie <b></b> </a>
+            <!-- <a class="clr dnp" href="#" target="_self"> Druk na pasie <b></b> </a> -->
+            <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
           </div>
         </div>
         <div class="select srozmiar">
@@ -97,12 +98,11 @@
             <!-- here are options to be loaded -->
           </div>
         </div>
-        <div class="select swymiar" style="border:none">
+        <!-- <div class="select swymiar" style="border:none">
           <h4> Wymiary: </h4>
           <div class="sizeSelector3">
-            <!-- here are options to be loaded -->
           </div>
-        </div>
+        </div> -->
 
 
 
