@@ -92,7 +92,7 @@
             <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
           </div>
         </div>
-        <div class="select srozmiar">
+        <div class="select srozmiar" style="margin-bottom:1em">
           <h4> Rozmiar/Typ: </h4>
           <div class="sizeSelector2">
             <!-- here are options to be loaded -->
@@ -131,6 +131,7 @@
         <label for="osoba">Osoba kontaktowa:</label><input class="xOsoba" type="text"  name="osoba">
         <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
         <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
+        <label for="upload" id="upload-label">Wgraj swoje logo</label><input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
         <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
 
         <div class="sagree">
