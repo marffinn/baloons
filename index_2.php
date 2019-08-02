@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link href="selectric.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
 
@@ -89,16 +88,24 @@
             <a href="#" target="_self" rel="pantone425c"  hex="#54585A"> <p></p> </a>
             <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
             <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a>
+            <!-- <a class="clr dnp" href="#" target="_self"> Druk na pasie <b></b> </a> -->
             <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
           </div>
         </div>
-        <div class="select srozmiar">
-          <!-- <i></i> -->
+        <div class="select srozmiar" style="margin-bottom:1em">
           <h4> Rozmiar/Typ: </h4>
-          <select class="sizeSelector">
-            <!--  options to be loaded into this option list -->
-          </select>
+          <div class="sizeSelector2">
+            <!-- here are options to be loaded -->
+          </div>
         </div>
+        <!-- <div class="select swymiar" style="border:none">
+          <h4> Wymiary: </h4>
+          <div class="sizeSelector3">
+          </div>
+        </div> -->
+
+
+
         <div class="select sdodatki">
           <i></i>
           <h4> Dodatki: </h4>
@@ -124,8 +131,9 @@
         <label for="osoba">Osoba kontaktowa:</label><input class="xOsoba" type="text"  name="osoba">
         <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
         <label for="email">E-Mail:</label><input class="xEmail" type="text"  name="email">
+        <label for="upload" id="upload-label">Wgraj swoje logo</label><input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
         <label>Wiadomość:</label><div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
-        
+
         <div class="sagree">
           <p><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
         </div>
@@ -142,11 +150,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
-    <script src="lib/jquery.selectric.min.js"></script>
     <script src="lib/smtp.js"></script>
 
 
