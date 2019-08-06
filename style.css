@@ -335,7 +335,7 @@ cursor: pointer;
   border-radius: 50%;
   display: block;
   cursor: pointer;
-  box-shadow: 0 0 0 1px #ccc;
+  /* box-shadow: 0 0 0 1px #ccc; */
   margin: 0 auto;
   transform: scale(.8);
 }
