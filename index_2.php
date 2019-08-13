@@ -37,9 +37,9 @@
         <p>Kategorie</p>
     </div>
 
-    <div class="rotate_container" state='off'>
+    <!-- <div class="rotate_container" state='off'>
         <img src="assets/img/3d.svg">
-    </div>
+    </div> -->
 
 
 
@@ -183,10 +183,8 @@
     <script src="uploader/config.js"></script>
     <script src="lib/smtp.js"></script>
 
-
     <script src="lib/WebGL.js" type="text/javascript"></script>
-    <script src="lib/threex.fullscreen.js" type="text/javascript"></script>
-    <script src="lib/loaders/JSONLoader.js" type="text/javascript"></script>
+    <script src="lib/JSONLoader.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.js" type="text/javascript"></script>
     <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
