@@ -113,7 +113,6 @@
                     </a>
                     <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
                     <!-- <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a> -->
-                    <!-- <a class="clr dnp" href="#" target="_self"> Druk na pasie <b></b> </a> -->
                     <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
                 </div>
             </div>
