@@ -37,33 +37,35 @@
         <p>Kategorie</p>
     </div>
 
-    <!-- <div class="rotate_container" state='off'>
-        <img src="assets/img/3d.svg">
-    </div> -->
-
-
-
     <div class="steering">
         <div class="rotateHolder">
             <div class="rotateLeft">
-                <img src="assets/img/vr.svg">
+                <img src="assets\img\rotate-left.svg">
                 <p>obracaj w lewo</p>
             </div>
             <div class="rotateRight">
-                <img style="transform: scaleX(1);" src="assets/img/vr.svg">
+                <img src="assets\img\rotate-right.svg">
                 <p>obracaj w prawo</p>
             </div>
         </div>
 
         <div class="zoomInOut">
             <div class="zoomIn">
-                <img src="assets\img\zoomIn.svg">
+                <img src="assets\img\zoom-in.svg">
                 <p>przybliż</p>
             </div>
             <div class="zoomOut">
-                <img src="assets\img\zoomOut.svg">
+                <img src="assets\img\zoom-out.svg">
                 <p>oddal</p>
             </div>
+        </div>
+        <div class="info_container" state="off">
+            <img src="assets\img\info-about.svg">
+            <p>pomoc/informacje</p>
+        </div>
+        <div class="fullscreen_container" state="off">
+            <img src="assets\img\full-screen.svg">
+            <p>pełny ekran</p>
         </div>
     </div>
 
@@ -123,10 +125,10 @@
                 </div>
             </div>
             <!-- <div class="select swymiar" style="border:none">
-          <h4> Wymiary: </h4>
-          <div class="sizeSelector3">
-          </div>
-        </div> -->
+                <h4> Wymiary: </h4>
+                <div class="sizeSelector3">
+                </div>
+            </div> -->
 
 
 
@@ -170,8 +172,7 @@
 
     <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p>
     </div>
-    <div class="info_container" state="off"><img src="assets/img/info.svg"></div>
-    <div class="fullscreen_container" state="off"><img src="assets/img/fullscreen.svg"></div>
+
 
     <!-- scripts & libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
