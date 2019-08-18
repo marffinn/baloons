@@ -34,39 +34,48 @@
 
     <div class="category_container">
         <img src="assets/img/category.svg">
-        <p>Kategorie</p>
+        <p data-lang="CATEGORY">Kategorie</p>
     </div>
 
     <div class="steering">
         <div class="rotateHolder">
             <div class="rotateLeft">
                 <img src="assets\img\rotate-left.svg">
-                <p>obracaj w lewo</p>
+                <p data-lang="ROTATE_LEFT">obracaj w lewo</p>
             </div>
             <div class="rotateRight">
                 <img src="assets\img\rotate-right.svg">
-                <p>obracaj w prawo</p>
+                <p data-lang="ROTATE_RIGHT">obracaj w prawo</p>
             </div>
         </div>
 
         <div class="zoomInOut">
             <div class="zoomIn">
                 <img src="assets\img\zoom-in.svg">
-                <p>przybliż</p>
+                <p data-lang="ZOOM_IN">przybliż</p>
             </div>
             <div class="zoomOut">
                 <img src="assets\img\zoom-out.svg">
-                <p>oddal</p>
+                <p data-lang="ZOOM_OUT">oddal</p>
             </div>
         </div>
         <div class="info_container" state="off">
             <img src="assets\img\info-about.svg">
-            <p>pomoc/informacje</p>
+            <p data-lang="HELP_INFO">pomoc/informacje</p>
         </div>
         <div class="fullscreen_container" state="off">
             <img src="assets\img\full-screen.svg">
-            <p>pełny ekran</p>
+            <p data-lang="FULL_SCREEN">pełny ekran</p>
         </div>
+        <div class="language_container" state="pl">
+            <img src="assets\img\pl.svg">
+            <p>Polski</p>
+        </div>
+        <div class="language_container" state="en">
+            <img src="assets\img\en.svg">
+            <p>English</p>
+        </div>
+
     </div>
 
 
@@ -75,7 +84,7 @@
             <h2 class="product-name"></h2>
             <div class="select skolory">
                 <i></i>
-                <h4> Kolory: </h4>
+                <h4 data-lang="COLOURS"> Kolory: </h4>
                 <div class="listerFoldable">
                     <a href="#" target="_self" rel="white" hex="#ffffff">
                         <p></p>
@@ -113,19 +122,19 @@
                     <a href="#" target="_self" rel="pantone425c" hex="#54585A">
                         <p></p>
                     </a>
-                    <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self"> Brak nadruku</a>
-                    <!-- <a class="clr cwn" href="#" target="_self" > Cały w nadruku</a> -->
-                    <a class="clr dnp" href="#" target="_self"> Druk na pasie</a>
+                    <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT"> Brak nadruku</a>
+                    <!-- <a class="clr cwn" href="#" target="_self" data-lang="ALL_PRINT"> > Cały w nadruku</a> -->
+                    <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT"> Druk na pasie</a>
                 </div>
             </div>
             <div class="select srozmiar" style="margin-bottom:1em">
-                <h4> Rozmiar/Typ: </h4>
+                <h4 data-lang="TYPE"> Rozmiar/Typ: </h4>
                 <div class="sizeSelector2">
                     <!-- here are options to be loaded -->
                 </div>
             </div>
             <!-- <div class="select swymiar" style="border:none">
-                <h4> Wymiary: </h4>
+                <h4 data-lang="SIZE"> Wymiary: </h4>
                 <div class="sizeSelector3">
                 </div>
             </div> -->
@@ -134,43 +143,43 @@
 
             <div class="select sdodatki">
                 <i></i>
-                <h4> Dodatki: </h4>
+                <h4 data-lang="ADDONS"> Dodatki: </h4>
                 <div class="listerFoldable">
-                    <a class="clr" href="#" target="_self">Oświetlenie wewnątrz balonu</a>
-                    <a class="clr" href="#" target="_self">Materiał trudnopalny z cert. B1</a>
-                    <a class="clr" href="#" target="_self">Obciążniki piaskowe</a>
-                    <a class="clr" href="#" target="_self">Materiał trudnopalny</a>
-                    <a class="clr" href="#" target="_self">Włącznik zmierzchowy</a>
+                    <a class="clr" href="#" target="_self" data-lang="INNER_LIGHT">Oświetlenie wewnątrz balonu</a>
+                    <a class="clr" href="#" target="_self" data-lang="NON_FLAMMABLE_CERT">Materiał trudnopalny z cert. B1</a>
+                    <a class="clr" href="#" target="_self" data-lang="SAND_WEIGHTS">Obciążniki piaskowe</a>
+                    <a class="clr" href="#" target="_self" data-lang="NON_FLAMMABLE">Materiał trudnopalny</a>
+                    <a class="clr" href="#" target="_self" data-lang="NIGHT_SWITCH">Włącznik zmierzchowy</a>
                 </div>
             </div>
-            <a href="#" name="summary" class="placeOrder">Zamawiam</a>
+            <a href="#" name="summary" class="placeOrder" data-lang="PLACE_ORDER">Zamawiam</a>
         </div>
         <div class="order">
             <div class="backToconfig">
                 <img src="assets/img/left-arrow.svg" alt="">
             </div>
-            <div class="formOrder">
+            <div class="formOrder" data-lang="ORDER_FORM">
                 Formularz zamówienia
             </div>
 
-            <label for="firma">Nazwa firmy:</label><input type="text" class="xFirma" name="firma">
-            <label for="osoba">Osoba kontaktowa:</label><input class="xOsoba" type="text" name="osoba">
-            <label for="telefon">Telefon:</label><input type="text" class="xTelefon" name="telefon">
-            <label for="email">E-Mail:</label><input class="xEmail" type="text" name="email">
-            <label for="upload" id="upload-label">Wgraj swoje logo</label><input type="file" name="upload" id="upload"
-                class="upload-box" placeholder=" Wyślij plik">
-            <label>Wiadomość:</label>
+            <label for="firma" data-lang="COMPANY_NAME">Nazwa firmy:</label><input type="text" class="xFirma" name="firma">
+            <label for="osoba" data-lang="CLIENTS_NAME">Osoba kontaktowa:</label><input class="xOsoba" type="text" name="osoba">
+            <label for="telefon" data-lang="PHONE">Telefon:</label><input type="text" class="xTelefon" name="telefon">
+            <label for="email" data-lang="MAIL">E-Mail:</label><input class="xEmail" type="text" name="email">
+            <label for="upload" id="upload-label" data-lang="LOGOTYPE">Wgraj swoje logo</label><input type="file" name="upload" id="upload"
+                class="upload-box" placeholder="Wyślij plik">
+            <label data-lang="MESSAGE">Wiadomość:</label>
             <div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
 
             <div class="sagree">
-                <p><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
+                <p data-lang="AGREEMENT"><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
             </div>
-            <div class="sendMail sendDisable">Wyślij</div>
+            <div class="sendMail sendDisable" data-lang="SEND">Wyślij</div>
 
         </div>
     </div>
 
-    <div class="pickInfo">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p>
+    <div class="pickInfo" data-lang="INSTRUCTION">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p>
     </div>
 
 
