@@ -2,20 +2,17 @@
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 38 38" style="enable-background:new 0 0 38 38;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-</style>
-<path id="XMLID_37_" d="M38,38H0V0h38V38z M3,35h32V3H3V35z"/>
+
+<path id="XMLID_37_" fill="#333" d="M38,38H0V0h38V38z M3,35h32V3H3V35z"/>
 <g>
-	<line class="st0" x1="30.6" y1="7.4" x2="7.4" y2="30.6"/>
+	<line fill="#333" class="st0" x1="30.6" y1="7.4" x2="7.4" y2="30.6"/>
 	<g>
-		<line class="st1" x1="24.5" y1="13.5" x2="13.5" y2="24.5"/>
+		<line fill="#333" class="st1" x1="24.5" y1="13.5" x2="13.5" y2="24.5"/>
 		<g>
-			<polygon points="19.1,10.5 30.6,7.4 27.5,18.9 			"/>
+			<polygon fill="#333" points="19.1,10.5 30.6,7.4 27.5,18.9 			"/>
 		</g>
 		<g>
-			<polygon points="10.5,19.1 7.4,30.6 18.9,27.5 			"/>
+			<polygon fill="#333" points="10.5,19.1 7.4,30.6 18.9,27.5 			"/>
 		</g>
 	</g>
 </g>
