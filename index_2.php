@@ -193,8 +193,8 @@
     <script src="lib/smtp.js"></script>
 
     <script src="lib/WebGL.js" type="text/javascript"></script>
-    <script src="lib/JSONLoader.js" type="text/javascript"></script>
-    <script src="lib/orbitcontrols.js" type="text/javascript"></script>
+    <script src="lib/JSONLoader.min.js" type="text/javascript"></script>
+    <script src="lib/orbitcontrols.min.js" type="text/javascript"></script>
     <script src="lib/driver.js" type="text/javascript"></script>
     <script src="lib/scene.js" type="text/javascript"></script>
     <script src="lib/index.js" type="text/javascript"></script>
