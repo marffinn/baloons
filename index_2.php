@@ -133,11 +133,11 @@
                     <!-- here are options to be loaded -->
                 </div>
             </div>
-            <!-- <div class="select swymiar" style="border:none">
+            <div class="select swymiar" style="border:none">
                 <h4 data-lang="SIZE"> Wymiary: </h4>
                 <div class="sizeSelector3">
                 </div>
-            </div> -->
+            </div>
 
 
 

@@ -133,12 +133,17 @@ body {
 }
 
 .ssClickOverlay3::before {
-  content: 'ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â¾';
+  content: "";
   position: absolute;
   display: block;
   z-index: 30;
-  height: 100%;
-  right: .5em;
+  height: 30px;
+  right: .2em;
+  background-image: url('assets/img/menu.svg');
+  width: 30px;
+  transform: scale(.5);
+  top: 50%;
+  margin-top: -15px;
 }
 
 .topWrapper3 {
