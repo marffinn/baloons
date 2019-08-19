@@ -29,6 +29,10 @@ body {
   background-color: #00aeef !important;
   color: black;
 }
+.ssActive3 {
+  background-color: #00aeef !important;
+  color: black;
+}
 
 .ssClickOverlay {
   height: 32px;
@@ -1478,7 +1482,7 @@ button img {
 }
 
 .rotateLeft p {
-  width: 150px;
+  width: 170px;
   height: 25px;
   display: block;
   position: absolute;
@@ -1495,7 +1499,7 @@ button img {
 }
 
 .rotateRight p {
-  width: 150px;
+  width: 170px;
   height: 25px;
   display: block;
   position: absolute;
