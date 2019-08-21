@@ -67,14 +67,14 @@
             <img src="assets\img\full-screen.svg">
             <p data-lang="FULL_SCREEN">pełny ekran</p>
         </div>
-        <div class="language_container" state="pl">
+        <!-- <div class="language_container" state="pl">
             <img src="assets\img\pl.svg">
             <p>Polski</p>
         </div>
         <div class="language_container" state="en">
             <img src="assets\img\en.svg">
             <p>English</p>
-        </div>
+        </div> -->
 
     </div>
 
