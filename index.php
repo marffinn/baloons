@@ -82,15 +82,15 @@
                 <span class="category__close">&times;</span>
                 <h3 class="category__title">Bramy:</h3>
                 <div class="category__products">
-                    <div class="load-model" model-data='brama'>
+                    <div class="load-model" model-data='prostok4x3'>
                         <img src="assets/img/icons/brama_1.svg" />
                         <p>Prostokatna</p>
                     </div>
-                    <div class="load-model" model-data='prostok6x3'>
+                    <div class="load-model" model-data='brama_hex'>
                         <img src="assets/img/icons/brama_2.svg" />
                         <p>Łamana</p>
                     </div>
-                    <div class="load-model" model-data='prostok8x4'>
+                    <div class="load-model" model-data='p_4x3'>
                         <img src="assets/img/icons/brama_3.svg" />
                         <p>Półokrągła</p>
                     </div>
@@ -110,11 +110,11 @@
                 <span class="category__close">&times;</span>
                 <h3 class="category__title">Chwieje:</h3>
                 <div class="category__products">
-                    <div class="load-model" model-data='chwiej'>
+                    <div class="load-model" model-data='chwiej5mj'>
                         <img src="assets/img/icons/chwiej_1.svg" />
                         <p>Chwiej 1 nożny</p>
                     </div>
-                    <div class="load-model" model-data='chwiej6m'>
+                    <div class="load-model" model-data='chwiej'>
                         <img src="assets/img/icons/chwiej_2.svg" />
                         <p>Chwiej 2 nożny</p>
                     </div>
@@ -150,7 +150,7 @@
                         <img src="assets/img/icons/flaga_2.svg" />
                         <p>Batefan ALU</p>
                     </div> -->
-                    <div class="load-model" model-data='batfanbeach_150x380'>
+                    <div class="load-model" model-data='batfanbeach_90x195'>
                         <img src="assets/img/icons/flaga_2.svg" />
                         <p>Batefan Beach</p>
                     </div>
@@ -170,11 +170,11 @@
                         <img src="assets/img/icons/namiot_1.svg" />
                         <p>4 nożny</p>
                     </div>
-                    <div class="load-model" model-data='namiot5x5'>
+                    <div class="load-model" model-data='namiot6x5'>
                         <img src="assets/img/icons/namiot_2.svg" />
                         <p>5 nożny</p>
                     </div>
-                    <div class="load-model" model-data='namiot6x5'>
+                    <div class="load-model" model-data='namiot6n6x5'>
                         <img src="assets/img/icons/namiot_3.svg" />
                         <p>6 nożny</p>
                     </div>
@@ -230,10 +230,10 @@
                         <img src="assets/img/icons/slup.svg" />
                         <p>Słupy</p>
                     </div>
-                    <div class="load-model" model-data='slup2x5sr60'>
+                    <!-- <div class="load-model" model-data='slup2x5sr60'>
                         <img src="assets/img/icons/puszka.svg" />
                         <p>Puszki</p>
-                    </div>
+                    </div> -->
                     <!-- <div class="load-model" model-data='slup3sr60'>
                         <img src="assets/img/icons/puszka.svg" />
                         <p>Słup 3m śr 60</p>
