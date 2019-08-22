@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+<g>
+	<polyline fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" points="59.027,99.224 73.858,73.537 
+		124.551,73.537 139.376,99.215 	"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="61.602" y1="52.278" x2="73.858" y2="73.537"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="136.782" y1="52.257" x2="124.551" y2="73.537"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="139.376" y1="99.215" x2="163.895" y2="99.216"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="34.535" y1="98.972" x2="59.027" y2="99.224"/>
+	<polygon fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" points="34.535,99.216 61.602,146.153 
+		136.782,146.174 163.895,99.216 136.782,52.257 61.602,52.278 	"/>
+	<polyline fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" points="59.027,99.224 73.858,124.912 
+		124.551,124.912 139.376,99.235 	"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="61.602" y1="146.153" x2="73.858" y2="124.895"/>
+	
+		<line fill="none" stroke="#2B2A29" stroke-width="0.5669" stroke-miterlimit="22.9256" x1="136.782" y1="146.174" x2="124.551" y2="124.895"/>
+	<g opacity="0.5">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="46.503" y="62.627" width="105.42" height="73.178"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<polygon clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#D9DAD9" points="46.83,99.216 
+				67.756,135.504 130.634,135.522 151.596,99.216 130.634,62.91 67.756,62.927 			"/>
+			<polygon clip-path="url(#SVGID_2_)" fill="none" stroke="#989898" stroke-width="0.5669" stroke-miterlimit="22.9256" points="
+				46.83,99.216 67.756,135.504 130.634,135.522 151.596,99.216 130.634,62.91 67.756,62.927 			"/>
+		</g>
+	</g>
+</g>
+</svg>
