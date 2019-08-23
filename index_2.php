@@ -127,7 +127,7 @@
                     <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT"> Druk na pasie</a>
                 </div>
             </div>
-            <div class="select srozmiar">
+            <div class="select srozmiar" style="margin-bottom:1em">
                 <h4 data-lang="TYPE"> Rozmiar/Typ: </h4>
                 <div class="sizeSelector2">
                     <!-- here are options to be loaded -->
