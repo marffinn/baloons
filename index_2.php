@@ -195,12 +195,12 @@
     <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/JSONLoader.min.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.min.js" type="text/javascript"></script>
-    <script src="lib/driver.min.js" type="text/javascript"></script>
     <script src="lib/select_type.js" type="text/javascript"></script>
     <script src="lib/select_size.js" type="text/javascript"></script>
     <script src="lib/lights.min.js" type="text/javascript"></script>
     <script src="lib/scene.min.js" type="text/javascript"></script>
     <script src="lib/index.min.js" type="text/javascript"></script>
+    <script src="lib/driver.min.js" type="text/javascript"></script>
     <script src="lib/languages.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     animIn('<?php echo $model; ?>');
