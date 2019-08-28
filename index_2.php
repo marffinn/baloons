@@ -20,7 +20,7 @@
 
     <div id="modal">
         <p></p>
-        <input type="file" name="upload" id="upload" class="upload-box" placeholder=" Wyślij plik">
+        <input type="file" name="upload" id="upload" class="upload-box" placeholder="Wyślij plik">
     </div>
 
     <div id="modalOrder" style="padding-bottom:0">
@@ -184,8 +184,9 @@
 
 
     <!-- scripts & libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
@@ -203,7 +204,7 @@
     <script src="lib/driver.min.js" type="text/javascript"></script>
     <script src="lib/languages.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-    animIn('<?php echo $model; ?>');
+        animIn('<?php echo $model; ?>');
     </script>
 
 </body>

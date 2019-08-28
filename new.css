@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#html-content-holder {
+    background-color: rgb(236, 236, 236);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logot {
+    /* width: 50px; */
+    display: block;
+    position: relative;
+    /* width: 100%; */
+    /* float: left; */
+    height: 100%;
+}
+
+.logo_con {
+
+    width: 200px;
+
+    height: 100px;
+
+    display: block;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
