@@ -204,6 +204,7 @@ body {
 
 .noflow {
   overflow: hidden;
+  float: left;
 }
 
 #container {

@@ -20,7 +20,7 @@
 
     <div id="modal">
         <p></p>
-        <input type="file" name="upload" id="upload" class="upload-box" placeholder="Wyślij plik">
+        <input type="file" name="upload" id="upload" class="upload-box ub2" placeholder="Wyślij plik">
     </div>
 
     <div id="modalOrder" style="padding-bottom:0">
