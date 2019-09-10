@@ -59,21 +59,21 @@
                 <h3 class="category__title">Balony:</h3>
                 <div class="category__products">
                     <div class="load-model" model-data='balon'>
-                        <img src="assets/img/icons/balon_1.svg" />
+                        <img src="assets/img/icons/balon_3.svg" />
                         <p>Balon Kula</p>
                     </div>
                     <div class="load-model" model-data='b12'>
-                        <img src="assets/img/icons/balon_2.svg" />
+                        <img src="assets/img/icons/balon_1.svg" />
                         <p>Balon B12</p>
                     </div>
                     <div class="load-model" model-data='b16'>
-                        <img src="assets/img/icons/balon_3.svg" />
+                        <img src="assets/img/icons/balon_2.svg" />
                         <p>Balon B16</p>
                     </div>
-                    <!-- <div class="load-model" model-data='grzybek'>
-                        <img src="assets/img/icons/balon_3.svg" />
+                    <div class="load-model" model-data='grzybek'>
+                        <img src="assets/img/icons/nowa-linia_1.svg" />
                         <p>Balon Grzybek</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>

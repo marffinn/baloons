@@ -148,7 +148,7 @@
                     <a class="clr" href="#" target="_self" data-lang="INNER_LIGHT">Oświetlenie wewnątrz balonu</a>
                     <a class="clr" href="#" target="_self" data-lang="NON_FLAMMABLE_CERT">Materiał trudnopalny z cert. B1</a>
                     <a class="clr" href="#" target="_self" data-lang="SAND_WEIGHTS">Obciążniki piaskowe</a>
-                    <a class="clr" href="#" target="_self" data-lang="NON_FLAMMABLE">Materiał trudnopalny</a>
+                    <a class="clr" href="#" target="_self" data-lang="NON_FLAMMABLE">Materiał standard</a>
                     <a class="clr" href="#" target="_self" data-lang="NIGHT_SWITCH">Włącznik zmierzchowy</a>
                 </div>
             </div>
@@ -191,9 +191,7 @@
 
     <script src="uploader/jquery.dm-uploader.min.js"></script>
     <script src="uploader/config.js"></script>
-    <script src="lib/smtp.js"></script>
 
-    <script src="lib/WebGL.js" type="text/javascript"></script>
     <script src="lib/JSONLoader.min.js" type="text/javascript"></script>
     <script src="lib/orbitcontrols.min.js" type="text/javascript"></script>
     <script src="lib/select_type.js" type="text/javascript"></script>
