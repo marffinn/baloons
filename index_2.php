@@ -8,10 +8,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="lib/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext"
         rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="lib/css/style.css" rel="stylesheet">
     <title> Konfigurator </title>
 </head>
 
@@ -21,6 +21,9 @@
     <div id="modal">
         <p></p>
         <input type="file" name="upload" id="upload" class="upload-box ub2" placeholder="Wyślij plik">
+    </div>
+    <div id="modal-rodo">
+        
     </div>
 
     <div id="modalOrder" style="padding-bottom:0">
@@ -152,7 +155,7 @@
                     <a class="clr" href="#" target="_self" data-lang="NIGHT_SWITCH">Włącznik zmierzchowy</a>
                 </div>
             </div>
-            <a href="#" name="summary" class="placeOrder" data-lang="PLACE_ORDER">Zamawiam</a>
+            <a href="#" name="summary" class="placeOrder" data-lang="PLACE_ORDER">Wyślij zapytanie</a>
         </div>
         <div class="order">
             <div class="backToconfig">
@@ -172,14 +175,14 @@
             <div class="mailBodyContainer"><textarea class="xMailBody"></textarea></div>
 
             <div class="sagree">
-                <p data-lang="AGREEMENT"><i> <b></b> </i> Zgadzam się z regulaminem konfiguratora</p>
+                <p data-lang="AGREEMENT"><i> <b></b> </i> Zgadzam się z regulaminem <a class="rodo_info" href="rodo.php">RODO</a> </p>
             </div>
             <div class="sendMail sendDisable" data-lang="SEND">Wyślij</div>
 
         </div>
     </div>
 
-    <div class="pickInfo" data-lang="INSTRUCTION">Kliknij na element bolonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p>
+    <div class="pickInfo" data-lang="INSTRUCTION">Kliknij na element balonu, po czym wybierz kolor, wraz z pozostałymi opcjami.<p></p>
     </div>
 
 

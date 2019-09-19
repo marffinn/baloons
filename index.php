@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="lib/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="style-home.css" rel="stylesheet">
+    <link href="lib/css/style-home.css" rel="stylesheet">
     <title> Konfigurator - Tent Grupa</title>
 </head>
 <body>
@@ -287,6 +287,6 @@
         copyrights 2019 <a href="https://tentgrupa.pl/">TentGrupa</a>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-    <script src="home-scripts.js" type="text/javascript"></script>
+    <script src="lib/home-scripts.js" type="text/javascript"></script>
 </body>
 </html>
