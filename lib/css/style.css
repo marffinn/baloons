@@ -17,21 +17,36 @@ body {
 }
 
 #modal-rodo {
-background-color: rgba(255, 255, 255, .9);
-width: 60%;
-height: auto;
-display: none;
-position: absolute;
-/* left: 200px; */
-z-index: 5555;
-top: 0;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-box-shadow: 0 0 15px 1px #888;
-overflow: scroll;
-padding: 2%;
-font-size: .8em;
+
+background-color: rgba(255, 255, 255, .9);
+
+width: 60%;
+
+height: auto;
+
+display: none;
+
+position: absolute;
+
+/* left: 200px; */
+
+z-index: 5555;
+
+top: 0;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+box-shadow: 0 0 15px 1px #888;
+
+overflow: scroll;
+
+padding: 2%;
+
+font-size: .8em;
 }
 .rodo-close {
     position: relative;
@@ -85,7 +100,7 @@ body {
   z-index: 30;
   height: 30px;
   right: .2em;
-  background-image: url('assets/img/menu.svg');
+  background-image: url('../../assets/img/menu.svg');
   width: 30px;
   transform: scale(.5);
   top: 50%;
@@ -175,7 +190,7 @@ body {
   z-index: 30;
   height: 30px;
   right: .2em;
-  background-image: url('assets/img/menu.svg');
+  background-image: url('../../assets/img/menu.svg');
   width: 30px;
   transform: scale(.5);
   top: 50%;

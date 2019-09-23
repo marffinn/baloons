@@ -22,7 +22,7 @@
         <p></p>
         <input type="file" name="upload" id="upload" class="upload-box ub2" placeholder="Wyślij plik">
     </div>
-    <div id="modal-rodo">
+    <div id="modal-rodo" data-state="off">
         
     </div>
 
