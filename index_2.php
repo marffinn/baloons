@@ -125,9 +125,9 @@
                     <a href="#" target="_self" rel="pantone425c" hex="#54585A">
                         <p></p>
                     </a>
-                    <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT"> Brak nadruku</a>
+                    <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT">Brak nadruku</a>
                     <!-- <a class="clr cwn" href="#" target="_self" data-lang="ALL_PRINT"> > Cały w nadruku</a> -->
-                    <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT"> Druk na pasie</a>
+                    <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT">Druk na pasie</a>
                 </div>
             </div>
             <div class="select srozmiar" style="margin-bottom:1em">
