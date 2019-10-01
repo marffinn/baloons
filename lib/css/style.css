@@ -275,7 +275,7 @@ font-size: .8em;
 .steering {
   width: auto;
   height: auto;
-  display: block;
+  display: none;
   position: absolute;
   left: 50%;
   bottom: 20px;
