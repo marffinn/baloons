@@ -1,2 +1,2 @@
 # Tent !
-![alt text](https://github.com/marffinn/baloons/blob/master/baloons.jpg)
+![alt text](https://github.com/marffinn/baloons/blob/dev/assets/baloons.jpg)
