@@ -92,44 +92,20 @@
                 <i></i>
                 <h4 data-lang="COLOURS"> Kolory: </h4>
                 <div class="listerFoldable">
-                    <a href="#" target="_self" rel="white" hex="#ffffff">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="black" hex="#000000">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone012c" hex="#FEDD00">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone158c" hex="#E87722">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone186c" hex="#C8102E">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone368c" hex="#78BE20">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone347c" hex="#009A44">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone2925c" hex="#009CDE">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone286c" hex="#0033A0">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone420c" hex="#C7C9C7">
-                        <p></p>
-                    </a>
-                    <a href="#" target="_self" rel="pantone425c" hex="#54585A">
-                        <p></p>
-                    </a>
+                    <a href="#" target="_self" rel="white" hex="#ffffff"><p></p></a>
+                    <a href="#" target="_self" rel="black" hex="#000000"><p></p></a>
+                    <a href="#" target="_self" rel="pantone012c" hex="#FEDD00"><p></p></a>
+                    <a href="#" target="_self" rel="pantone1375c" hex="#FF9E1B"><p></p></a>
+                    <a href="#" target="_self" rel="pantone158c" hex="#E87722"><p></p></a>
+                    <a href="#" target="_self" rel="pantone186c" hex="#C8102E"><p></p></a>
+                    <a href="#" target="_self" rel="pantone368c" hex="#78BE20"><p></p></a>
+                    <a href="#" target="_self" rel="pantone347c" hex="#009A44"><p></p></a>
+                    <a href="#" target="_self" rel="pantone2925c" hex="#009CDE"><p></p></a>
+                    <a href="#" target="_self" rel="pantone286c" hex="#0033A0"><p></p></a>
+                    <a href="#" target="_self" rel="pantone420c" hex="#C7C9C7"><p></p></a>
+                    <a href="#" target="_self" rel="pantone425c" hex="#54585A"><p></p></a>
+
                     <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT">Brak nadruku</a>
-                    <!-- <a class="clr cwn" href="#" target="_self" data-lang="ALL_PRINT"> > Cały w nadruku</a> -->
                     <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT">Druk na pasie</a>
                 </div>
             </div>
