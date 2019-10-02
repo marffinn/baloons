@@ -83,8 +83,11 @@
 
 
     <div id="picklist">
+    
         <div class="pick">
+
             <h2 class="product-name"></h2>
+
             <div class="select skolory">
                 <i></i>
                 <h4 data-lang="COLOURS"> Kolory: </h4>
@@ -130,19 +133,19 @@
                     <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT">Druk na pasie</a>
                 </div>
             </div>
+
             <div class="select srozmiar" style="margin-bottom:1em">
                 <h4 data-lang="TYPE"> Rozmiar/Typ: </h4>
                 <div class="sizeSelector2">
                     <!-- here are options to be loaded -->
                 </div>
             </div>
+
             <div class="select swymiar" style="border:none">
                 <h4 data-lang="SIZE"> Wymiary: </h4>
                 <div class="sizeSelector3">
                 </div>
             </div>
-
-
 
             <div class="select sdodatki">
                 <i></i>
@@ -155,8 +158,10 @@
                     <a class="clr" href="#" target="_self" data-lang="NIGHT_SWITCH">Włącznik zmierzchowy</a>
                 </div>
             </div>
+
             <a href="#" name="summary" class="placeOrder" data-lang="PLACE_ORDER">Wyślij zapytanie</a>
         </div>
+
         <div class="order">
             <div class="backToconfig">
                 <img src="assets/img/left-arrow.svg" alt="">
