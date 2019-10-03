@@ -105,13 +105,13 @@
                     <a href="#" target="_self" rel="pantone420c" hex="#C7C9C7"><p></p></a>
                     <a href="#" target="_self" rel="pantone425c" hex="#54585A"><p></p></a>
 
-                    <a class="clr bnd" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT">Brak nadruku</a>
+                    <a class="clr bnd check" style="margin-top:0.5em" href="#" target="_self" data-lang="NO_PRINT">Brak nadruku</a>
                     <a class="clr dnp" href="#" target="_self" data-lang="STRIPE_PRINT">Druk na pasie</a>
                 </div>
             </div>
 
             <div class="select srozmiar" style="margin-bottom:1em">
-                <h4 data-lang="TYPE"> Rozmiar/Typ: </h4>
+                <h4 data-lang="TYPE"> Typ: </h4>
                 <div class="sizeSelector2">
                     <!-- here are options to be loaded -->
                 </div>
