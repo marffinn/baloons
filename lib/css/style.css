@@ -378,7 +378,7 @@ font-size: .8em;
 }
 
 .sendDisable {
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .pick {
